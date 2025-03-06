@@ -1,0 +1,1 @@
+SELECTED_TCID_CACHE_KEY = "selected_tenant_cid"

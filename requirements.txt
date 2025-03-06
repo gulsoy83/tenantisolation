@@ -1,0 +1,24 @@
+# Core Packages
+django==5.1.7                  # Specific version of Django
+gunicorn==22.0.0               # Web server for production use
+redis==5.0.7                   # Python client for Redis
+environs==9.3.0                # Environment variable management
+
+
+# Utility Libraries
+psycopg2-binary==2.9.9         # PostgreSQL database adapter
+
+
+# API Frameworks and Data Validation
+pydantic==2.9.1                # Data validation and settings management using Python type hints
+
+
+# Django Extensions
+django-constance==3.1.0              # Dynamic Django settings
+django-redis==5.4.0                  # Django cache backend for Redis
+django-sql-explorer==5.0.2           # SQL query explorer for Django
+django-autocomplete-light==3.11.0    # Autocomplete widget for Django forms
+
+
+# Git pre-commit hooks
+pre-commit==3.5.0
