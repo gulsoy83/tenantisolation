@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" class="bg-white">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    {% block header %}
+        {% include "core/header.html" %}
+    {% endblock %}
+
+    {% block extracss %}
+    {% endblock %}
+</head>
+<body class="az-body bg-white">
+    <div class="antialiased">
+        
+        {% block sidebar %}
+            {% include "core/sidebar.html" %}
+        {% endblock %}
+        {% block main_content %}
+            <main class="md:ml-64 pt-14 h-vh bg-white w-screen sm:w-auto">
+                {% block navbar %}
+                    {% include "core/navbar.html" %}
+                {% endblock %}
+                {% if messages %}
+                    {% for message in messages %}
+                        <p>"{{ message|safe }}", "{{ message.level_tag }}"</p>
+                    {% endfor %}
+                {% endif %}
+
+                {% block content %}
+                {% endblock %}
+            </main>
+        {% endblock %}
+
+        {% block footer %}
+            {% include 'core/footer.html' %}
+        {% endblock %}
+
+    </div>
+
+    {% block scripts %}
+        {% include "core/scripts.html" %}
+    {% endblock %}
+
+    {% block extrascripts %}
+    {% endblock %}
+</body>
+</html>

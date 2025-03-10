@@ -1,0 +1,76 @@
+{% load static %}
+
+<!-- <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" /> -->
+<link rel="stylesheet" href="{% static 'css/jquery.dataTables.v1.13.7.css' %}" />
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+<link rel="stylesheet" href="{% static 'fontawesome_5.15.3/css/all.min.css' %}" />
+
+<link rel="stylesheet"  href="{% static 'css/flag-icons.min.v7.0.0.css' %}"/>
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" /> -->
+<link href="{% static 'css/flowbite.min.v2.4.1.css' %}" rel="stylesheet" />
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+<script src="{% static 'js/jquery.min.v3.6.0.js' %}"></script>
+
+<!-- <script src="https://cdn.tailwindcss.com/3.4.13?plugins=forms,typography,aspect-ratio,container-queries"></script> -->
+<script src="{% static 'js/tailwind.v3.4.13-plugins.js' %}"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          primary: {"50":"#eff6ff","100":"#dbeafe","200":"#bfdbfe","300":"#93c5fd","400":"#60a5fa","500":"#3b82f6","600":"#2563eb","700":"#1d4ed8","800":"#1e40af","900":"#1e3a8a","950":"#172554"}
+        }
+      },
+      fontFamily: {
+        'body': [
+          'Inter', 
+          'ui-sans-serif', 
+          'system-ui', 
+          '-apple-system', 
+          'system-ui', 
+          'Segoe UI', 
+          'Roboto', 
+          'Helvetica Neue', 
+          'Arial', 
+          'Noto Sans', 
+          'sans-serif', 
+          'Apple Color Emoji', 
+          'Segoe UI Emoji', 
+          'Segoe UI Symbol', 
+          'Noto Color Emoji'
+        ],
+        'sans': [
+          'Inter', 
+          'ui-sans-serif', 
+          'system-ui', 
+          '-apple-system', 
+          'system-ui', 
+          'Segoe UI', 
+          'Roboto', 
+          'Helvetica Neue', 
+          'Arial', 
+          'Noto Sans', 
+          'sans-serif', 
+          'Apple Color Emoji', 
+          'Segoe UI Emoji', 
+          'Segoe UI Symbol', 
+          'Noto Color Emoji'
+        ]
+      }
+    }
+  }
+</script>
+<style type="text/tailwindcss">
+  @layer utilities {
+    .content-auto {
+      content-visibility: auto;
+    }
+    [x-cloak] {
+          display: none;
+      }
+  }
+</style>

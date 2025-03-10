@@ -20,5 +20,8 @@ django-sql-explorer==5.0.2           # SQL query explorer for Django
 django-autocomplete-light==3.11.0    # Autocomplete widget for Django forms
 
 
+# Error Tracking
+sentry-sdk[django]==2.9.0
+
 # Git pre-commit hooks
 pre-commit==3.5.0

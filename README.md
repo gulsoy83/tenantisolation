@@ -19,11 +19,11 @@ To launch the application, use:
     "name": "Python: Django",
     "type": "python",
     "request": "launch",
-    "cwd": "${workspaceFolder}/sirketim",
-    "program": "${workspaceFolder}/sirketim/manage.py",
+    "cwd": "${workspaceFolder}/tenantisolation",
+    "program": "${workspaceFolder}/tenantisolation/manage.py",
     "args": [
         "runserver",
-        "8005"
+        "8000"
     ],
     "django": true,
     "justMyCode": false,

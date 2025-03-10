@@ -33,11 +33,26 @@ GDAL_LIBRARY_PATH = "C:\\LIBRARIES\\OSGeo4W\\bin\\gdal307.dll"
 GEOS_LIBRARY_PATH = "C:\\LIBRARIES\\OSGeo4W\\bin\\geos_c.dll"
 
 ALLOWED_HOSTS = config.ALLOWED_HOSTS
+CORS_ORIGIN_WHITELIST = config.CORS_ORIGIN_WHITELIST
+CORS_ORIGIN_REGEX_WHITELIST = config.CORS_ORIGIN_REGEX_WHITELIST
+CORS_ORIGIN_ALLOW_ALL = config.CORS_ORIGIN_ALLOW_ALL
 
+CSRF_TRUSTED_ORIGINS = config.CSRF_TRUSTED_ORIGINS
+CSRF_COOKIE_SECURE = config.CSRF_COOKIE_SECURE
+CSRF_USE_SESSIONS = config.CSRF_USE_SESSIONS
+
+SESSION_ENGINE = config.SESSION_ENGINE
+SESSION_CACHE_ALIAS = config.SESSION_CACHE_ALIAS
+SESSION_COOKIE_SECURE = config.SESSION_COOKIE_SECURE
+SESSION_COOKIE_NAME = config.SESSION_COOKIE_NAME
+
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+SITE_ID = 1
 
 # Application definition
 
 INSTALLED_APPS = [
+    "django.contrib.sites",
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -49,6 +64,8 @@ INSTALLED_APPS = [
     "constance",
     # django apps
     'core',
+    "native_account",
+    "company",
     'tenant',
 ]
 
@@ -60,6 +77,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "tenantisolation.middleware.LoggingMiddleware",
 ]
 
 ROOT_URLCONF = 'tenantisolation.urls'
@@ -75,6 +93,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                "core.context_processors.user_info",
+                "core.context_processors.account_info",
             ],
         },
     },
@@ -177,3 +197,43 @@ if config.CACHE_BACKEND == "redis":
             },
         }
     }
+
+
+if config.SHOW_DJANGO_LOG:
+    import logging.config
+
+    LOGGING_CONFIG = None
+
+    # Get loglevel from env
+    LOGLEVEL = os.getenv("DJANGO_LOGLEVEL", "info").upper()
+
+    logging.config.dictConfig(
+        {
+            "version": 1,
+            "disable_existing_loggers": False,
+            "formatters": {
+                "console": {
+                    "format": "%(asctime)s %(levelname)s %(message)s",
+                },
+            },
+            "handlers": {
+                "console": {
+                    "class": "logging.StreamHandler",
+                    "formatter": "console",
+                },
+            },
+            "loggers": {
+                "": {
+                    "level": LOGLEVEL,
+                    "handlers": [
+                        "console",
+                    ],
+                },
+                "elasticapm": {
+                    "handlers": ["console"],
+                    "level": "INFO",
+                    "propagate": False,
+                },
+            },
+        }
+    )

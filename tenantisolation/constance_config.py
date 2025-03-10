@@ -7,6 +7,14 @@ CONSTANCE_CONFIG = {
     ),
     "SITE_DOMAIN": ("", "Site domain"),
     "SITE_COLOR": ("#2563eb", "Theme color of the site (in hexadecimal format)."),
+    "ENABLE_LOGGING_MIDDLEWARE_DUMPS": (
+        False,
+        "Enable or disable the LoggingMiddleware logger dumps.",
+    ),
+    "ENABLE_REDIRECT_MIDDLEWARE": (
+        False,
+        "Enable or disable redirection in the RedirectMiddleware.",
+    ),
 }
 
 CONSTANCE_CONFIG_FIELDSETS = {
@@ -16,5 +24,7 @@ CONSTANCE_CONFIG_FIELDSETS = {
         "SITE_COLOR",
         "STATIC_VERSION",
         "ADMIN_SITE_ISOLATION",
+        "ENABLE_LOGGING_MIDDLEWARE_DUMPS",
+        "ENABLE_REDIRECT_MIDDLEWARE",
     ],
 }

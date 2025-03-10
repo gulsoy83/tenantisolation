@@ -109,7 +109,7 @@ class TenantCoreManager(models.Manager):
     @classmethod
     def __get_tenant_company_id_from_db(cls, tenant_user):
         try:
-            from account.models import AccountCompany
+            from native_account.models import AccountCompany
 
             account = tenant_user.account
             account_company = AccountCompany.objects.get(
@@ -470,7 +470,7 @@ class TenantCoreModel(CoreModel):
             "Tenant Company ID could not be retrieved from the cache or the database."
         )
 
-        from account.models import AccountCompany
+        from native_account.models import AccountCompany
         from company.models import Company
 
         company_exists = Company.objects.filter(id=tenant_company_id).exists()

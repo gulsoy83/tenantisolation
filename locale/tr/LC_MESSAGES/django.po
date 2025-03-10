@@ -1,0 +1,3118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-09 23:31+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\apps\company\models.py:16
+msgid "Legal Name"
+msgstr "Yasal İsim"
+
+#: .\apps\company\models.py:17
+msgid "Tax Office"
+msgstr "Vergi Dairesi"
+
+#: .\apps\company\models.py:18
+msgid "Tax No"
+msgstr "Vergi Numarası"
+
+#: .\apps\company\models.py:20
+msgid "Code"
+msgstr "Kod"
+
+#: .\apps\company\models.py:23
+msgid "Website"
+msgstr "Web Sitesi"
+
+#: .\apps\company\models.py:26
+msgid "Email"
+msgstr "E-posta"
+
+#: .\apps\core\context_processors.py:31
+msgid "User must have an account."
+msgstr "Kullanıcının bir hesabı olmak zorundadır."
+
+#: .\apps\core\enums.py:40
+msgid " "
+msgstr ""
+
+#: .\apps\core\models.py:33
+msgid "Created At"
+msgstr "Oluşturulma Tarihi"
+
+#: .\apps\core\models.py:40
+msgid "Created By"
+msgstr "Oluşturan"
+
+#: .\apps\core\models.py:43
+msgid "Updated At"
+msgstr "Güncellenme Tarihi"
+
+#: .\apps\core\models.py:51
+msgid "Updated By"
+msgstr "Güncelleyen"
+
+#: .\apps\core\models.py:53
+msgid "Is Active"
+msgstr "Aktif Mi"
+
+#: .\apps\core\models.py:54
+msgid "Is Deleted"
+msgstr "Silindi Mi"
+
+#: .\apps\core\models.py:56
+msgid "Deleted At"
+msgstr "Silinme Tarihi"
+
+#: .\apps\core\models.py:64
+msgid "Deleted By"
+msgstr "Silen"
+
+#: .\apps\core\models.py:82 .\apps\native_account\models.py:218
+#: .\apps\native_account\models.py:251 .\apps\native_account\models.py:302
+msgid "User parameter is missing."
+msgstr ""
+
+#: .\apps\core\views.py:20
+msgid "Home Page"
+msgstr "Ana Sayfa"
+
+#: .\apps\native_account\models.py:25
+msgid "Owner"
+msgstr "Sahip"
+
+#: .\apps\native_account\models.py:26
+msgid "Admin"
+msgstr "Yönetici"
+
+#: .\apps\native_account\models.py:27
+msgid "Member"
+msgstr "Üye"
+
+#: .\apps\native_account\models.py:35
+msgid "User"
+msgstr "Kullanıcı"
+
+#: .\apps\native_account\models.py:37
+msgid "Phone"
+msgstr "Telefon"
+
+#: .\apps\native_account\models.py:39
+msgid "Is Phone Verified"
+msgstr "Telefon Onaylandı Mı"
+
+#: .\apps\native_account\models.py:41
+msgid "Birth Date"
+msgstr "Doğum Tarihi"
+
+#: .\apps\native_account\models.py:43
+msgid "Is Email Verified"
+msgstr "E-Posta Onaylandı Mı"
+
+#: .\apps\native_account\models.py:46
+msgid "Email Verified At"
+msgstr "E-posta Onaylanma Tarihi"
+
+#: .\apps\native_account\models.py:64
+msgid "User email is required."
+msgstr "Kullanıcı e-postası gereklidir."
+
+#: .\apps\native_account\models.py:67
+msgid "User email must be a unique value."
+msgstr "Kullanıcı e-postası benzersiz olmalıdır."
+
+#: .\apps\native_account\models.py:105
+msgid "Is Selected"
+msgstr "Seçili Mi"
+
+#: .\apps\native_account\models.py:107
+msgid "Role"
+msgstr "Rol"
+
+#: .\apps\native_account\models.py:165
+msgid "Invalid role, please contact with your company"
+msgstr "Geçersiz rol, lütfen şirketinizle irtibata geçin"
+
+#: .\apps\native_account\models.py:252 .\apps\native_account\models.py:303
+msgid "Tenant Company ID is missing."
+msgstr ""
+
+#: .\apps\native_account\models.py:257
+#, fuzzy
+#| msgid "Address is required"
+msgid "Selected Company ID is required."
+msgstr "Seçili Şirket ID'si gereklidir."
+
+#: .\apps\native_account\models.py:312
+msgid "Account IDs are required."
+msgstr "Hesap ID'leri gereklidir."
+
+#: .\apps\tenant\models.py:18
+msgid "Tenant User parameter is required, for: TenantQuerySet.create()"
+msgstr ""
+
+#: .\apps\tenant\models.py:38
+msgid "Tenant User parameter is required, for: TenantQuerySet.get_or_create()"
+msgstr ""
+
+#: .\apps\tenant\models.py:66
+msgid ""
+"Tenant User parameter is required, for: TenantQuerySet.update_or_create()"
+msgstr ""
+
+#: .\apps\tenant\models.py:192
+msgid "No matching objects found for the current tenant."
+msgstr ""
+
+#: .\apps\tenant\models.py:196
+msgid "Multiple objects returned for the current tenant."
+msgstr ""
+
+#: .\apps\tenant\models.py:445
+msgid "Tenant Company"
+msgstr ""
+
+#: .\apps\tenant\models.py:454
+msgid "Tenant User parameter is missing."
+msgstr ""
+
+#: .\apps\tenant\models.py:470
+msgid ""
+"Tenant Company ID could not be retrieved from the cache or the database."
+msgstr ""
+
+#: .\apps\tenant\models.py:481
+msgid "Tenant Company ID is not valid."
+msgstr ""
+
+#: .\apps\tenant\models.py:483
+msgid "There is no AccountCompany associated with this Tenant Company ID."
+msgstr ""
+
+#: .\apps\tenant\models.py:495
+msgid ""
+"The Tenant Company ID fetched from the cache does not match the Tenant "
+"Company ID of the object."
+msgstr ""
+
+#: .\apps\tenant\models.py:507
+msgid "An unexpected error occurred while validating the Tenant Company ID."
+msgstr ""
+
+#: .\tenantisolation\middleware.py:36
+#, fuzzy
+#| msgid "Don't have an account?"
+msgid "You do not have an account."
+msgstr "Hesanınız yok mu?"
+
+#: .\tenantisolation\middleware.py:40
+msgid "You do not have a company associated with your account."
+msgstr "Hesabınıza bağlı bir şirket bulunmamaktadır."
+
+#: .\tenantisolation\middleware.py:42
+msgid "You can create a company from this page."
+msgstr ""
+
+#~ msgid "Account"
+#~ msgstr "Hesap"
+
+#~ msgid "Name"
+#~ msgstr "İsim"
+
+#~ msgid "Gender"
+#~ msgstr "Cinsiyet"
+
+#~ msgid "Hamurlabs Sirketim One-Time Verification Code"
+#~ msgstr "Hamurlabs Şirketim Tek Seferlik Doğrulama Kodunuz"
+
+#~ msgid "An error occurred while sending the verification email."
+#~ msgstr "Onay e-postası gönderilirken bir hata oluştu."
+
+#~ msgid "User with this email already exists."
+#~ msgstr "Bu e-postaya sahip kullanıcı zaten mevcut."
+
+#~ msgid "Company with this tax number already exists."
+#~ msgstr "Bu vergi numarasına sahip şirket zaten mevcut."
+
+#~ msgid "User not found with this email."
+#~ msgstr "Bu e-posta adresine sahip kullanıcı bulunamadı."
+
+#~ msgid "Request object is required for login."
+#~ msgstr "Giriş için istek nesnesi gereklidir."
+
+#~ msgid "Verification code is invalid or expired."
+#~ msgstr "Doğrulama kodu geçersiz veya süresi dolmuş."
+
+#~ msgid "City"
+#~ msgstr "Şehir"
+
+#~ msgid "Township"
+#~ msgstr "İlçe"
+
+#~ msgid "Identity Number"
+#~ msgstr "Kimlik Numarası"
+
+#~ msgid "Tax Number"
+#~ msgstr "Vergi Numarası"
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "Postal Code"
+#~ msgstr "Posta Kodu"
+
+#~ msgid "Email Address"
+#~ msgstr "E-posta Adresi"
+
+#~ msgid "Is Sent"
+#~ msgstr "Gönderildi Mi"
+
+#~ msgid "Invitation"
+#~ msgstr "Davet"
+
+#~ msgid "Invitations"
+#~ msgstr "Davetler"
+
+#~ msgid "An account with this email is already linked to your company."
+#~ msgstr "Bu epostaya sahip bir hesap zaten şirketinize bağlı."
+
+#~ msgid "Hamurlabs Sirketim Invitation"
+#~ msgstr "Hamurlabs Şirketim Daveti"
+
+#~ msgid "An error occurred while sending the invitation email."
+#~ msgstr "Davet e-postası gönderilirken bir hata oluştu."
+
+#~ msgid "Signed In Devices"
+#~ msgstr "Giriş Yapılmış Cihazlar"
+
+#~ msgid "Refresh"
+#~ msgstr "Yenile"
+
+#~ msgid "Current session"
+#~ msgstr "Mevcut oturum"
+
+#~ msgid "User Agent"
+#~ msgstr "Kullanıcı Aracısı"
+
+#~ msgid "IP Address"
+#~ msgstr "IP Adresi"
+
+#~ msgid "Expires"
+#~ msgstr "Sona erme"
+
+#~ msgid "Terminate"
+#~ msgstr "Sonlandır"
+
+#~ msgid "Warning"
+#~ msgstr "Uyarı"
+
+#~ msgid "Session will be terminated."
+#~ msgstr "Oturum sonlandırılacak."
+
+#~ msgid "Cancel"
+#~ msgstr "Vazgeç"
+
+#~ msgid "Session successfully terminated."
+#~ msgstr "Oturum başarıyla sonlandırıldı."
+
+#~ msgid "Internal Server Error"
+#~ msgstr "Sunucu Hatası"
+
+#~ msgid "Company Account"
+#~ msgstr "Şirket Hesabı"
+
+#~ msgid "Detail Page"
+#~ msgstr "Detay Sayfası"
+
+#~ msgid "Company"
+#~ msgstr "Şirket"
+
+#~ msgid "Invitation List"
+#~ msgstr "Davet Listesi"
+
+#~ msgid "Search"
+#~ msgstr "Ara"
+
+#~ msgid "Company Account List"
+#~ msgstr "Şirket Hesap Listesi"
+
+#~ msgid "Invite"
+#~ msgstr "Davet Et"
+
+#~ msgid "Action"
+#~ msgstr "Eylem"
+
+#~ msgid "Show"
+#~ msgstr "Göster"
+
+#~ msgid "Edit"
+#~ msgstr "Düzenle"
+
+#~ msgid "Delete"
+#~ msgstr "Sil"
+
+#~ msgid "Are you sure?"
+#~ msgstr "Emin misiniz?"
+
+#~ msgid "You are about to delete the Company Account."
+#~ msgstr "Şirket hesabını silmek üzeresiniz."
+
+#~ msgid "Sirketim Invitation"
+#~ msgstr "Şirketim Daveti"
+
+#~ msgid "Hello"
+#~ msgstr "Merhaba"
+
+#, python-format
+#~ msgid ""
+#~ "<span style=\"font-weight: 600\">%(name)s</span> invites you to the "
+#~ "Hamurlabs Sirketim application!"
+#~ msgstr ""
+#~ "<span style=\"font-weight: 600\">%(name)s</span> sizi Hamurlabs Şirketim "
+#~ "uygulamasına davet ediyor!"
+
+#~ msgid ""
+#~ "Please click the button below to complete your registration for the "
+#~ "Hamurlabs Sirketim."
+#~ msgstr ""
+#~ "Hamurlabs Şirketim kaydınızı tamamlamak için lütfen aşağıdaki butona "
+#~ "tıklayın."
+
+#, python-format
+#~ msgid "The invitation link is valid for %(expire_days)s days."
+#~ msgstr "Davet linki %(expire_days)s gün boyunca geçerlidir."
+
+#~ msgid "Join"
+#~ msgstr "Katıl"
+
+#~ msgid "If you need any help, please contact us at:"
+#~ msgstr "Yardıma ihtiyacınız olursa, lütfen bize şu adresten ulaşın:"
+
+#~ msgid "Verification Code"
+#~ msgstr "Doğrulama Kodu"
+
+#~ msgid ""
+#~ "An attempt is being made to log in to your Hamurlabs Sirketim account."
+#~ msgstr "Hamurlabs Şirketim hesabınıza giriş yapılmak isteniyor."
+
+#~ msgid "To complete the login process, please use the following code:"
+#~ msgstr "Oturum açma işlemini tamamlayabilmek için lütfen bu kodu kullanın:"
+
+#, python-format
+#~ msgid "The verification code is valid for %(expire_minutes)s minutes."
+#~ msgstr "Doğrulama kodu %(expire_minutes)s dakika boyunca geçerlidir."
+
+#~ msgid "This code should be stored securely."
+#~ msgstr "Bu kodu güvenli bir şekilde saklayın."
+
+#~ msgid "Did you not perform this action ?"
+#~ msgstr "Bu işlemi siz yapmadınız mı ?"
+
+#~ msgid ""
+#~ "If you did not trigger this action, we recommend that you promptly review "
+#~ "your account security. If you determine that this activity is malicious, "
+#~ "please contact us at:"
+#~ msgstr ""
+#~ "Bu işlemi siz tetiklemediyseniz, hesap güvenliğinizi derhal gözden "
+#~ "geçirmenizi öneririz. Bu eylemin kötü amaçlı olduğunu düşünüyorsanız "
+#~ "lütfen bizimle iletişime geçin:"
+
+#~ msgid "Hamurlabs Sirketim"
+#~ msgstr "Hamurlabs Şirketim"
+
+#~ msgid "Welcome"
+#~ msgstr "Hoş Geldiniz"
+
+#~ msgid "Login"
+#~ msgstr "Giriş Yap"
+
+#~ msgid "e-mail address"
+#~ msgstr "e-mail adresi"
+
+#~ msgid "Minutes"
+#~ msgstr "Dakikalar"
+
+#~ msgid "Seconds"
+#~ msgstr "Saniyeler"
+
+#~ msgid "Continue"
+#~ msgstr "Devam Et"
+
+#~ msgid "Verify"
+#~ msgstr "Doğrula"
+
+#~ msgid "Resend Code"
+#~ msgstr "Kodu Tekrar Gönder"
+
+#~ msgid ""
+#~ "You can log in with the verification code that will be sent to your email "
+#~ "address. For any questions, you can get support at <a class='text-primary "
+#~ "font-bold' href='mailto:support@hamurlabs.com'>support@hamurlabs.com</a>."
+#~ msgstr ""
+#~ "E-posta adresinize gönderilecek doğrulama kodu ile giriş yapabilirsiniz. "
+#~ "Herhangi bir sorunuz için <a class='text-primary font-bold' "
+#~ "href='mailto:support@hamurlabs.com'>support@hamurlabs.com</a> adresinden "
+#~ "destek alabilirsiniz."
+
+#~ msgid "Register here"
+#~ msgstr "Buradan kayıt olun"
+
+#~ msgid "Go back"
+#~ msgstr "Geri dön"
+
+#~ msgid "Confirmation"
+#~ msgstr "Doğrulama"
+
+#~ msgid "Account details"
+#~ msgstr "Hesap detayları"
+
+#~ msgid "First Name"
+#~ msgstr "Ad"
+
+#~ msgid "Last Name"
+#~ msgstr "Soyad"
+
+#~ msgid "Select date"
+#~ msgstr "Tarih seçiniz"
+
+#~ msgid "Next: Company Info"
+#~ msgstr "Sonraki: Şirket Bilgileri"
+
+#~ msgid "Company details"
+#~ msgstr "Şirket detayları"
+
+#~ msgid "Company Name"
+#~ msgstr "Şirket Adı"
+
+#~ msgid "Company Tax Office"
+#~ msgstr "Şirket Vergi Dairesi"
+
+#~ msgid "Company Tax Number"
+#~ msgstr "Şirket Vergi Numarası"
+
+#~ msgid "Prev: Account Info"
+#~ msgstr "Önceki: Hesap Bilgileri"
+
+#~ msgid "Next: Verification"
+#~ msgstr "Sonraki: Doğrulama"
+
+#~ msgid "Verify your email address"
+#~ msgstr "E-posta adresinizi doğrulayın"
+
+#~ msgid "Make sure to keep this window open while check your inbox."
+#~ msgstr ""
+#~ "Gelen kutunuzu kontrol ederken bu pencereyi açık tuttuğunuzdan emin olun."
+
+#~ msgid "Verify account"
+#~ msgstr "Hesabı doğrula"
+
+#~ msgid "Verified"
+#~ msgstr "Doğrulandı"
+
+#~ msgid "You have successfully verified your account."
+#~ msgstr "Hesabınızı başarıyla doğruladınız."
+
+#~ msgid "Start using Sirketim"
+#~ msgstr "Sirketim'i kullanmaya başlayın"
+
+#~ msgid "Please fill in all required fields."
+#~ msgstr "Lütfen tüm zorunlu alanları doldurun."
+
+#, python-format
+#~ msgid ""
+#~ "We emailed you a six-digit code to <span class=\"font-medium text-"
+#~ "gray-900\">%(email)s</span>. Enter the code below to confirm your email "
+#~ "address."
+#~ msgstr ""
+#~ "<span class=\"font-medium text-gray-900\">%(email)s</span> adresine altı "
+#~ "haneli bir kod gönderdik. E-posta adresinizi onaylamak için aşağıya bu "
+#~ "kodu girin."
+
+#~ msgid "Verification code sent to your email."
+#~ msgstr "Doğrulama kodu e-postanıza gönderildi."
+
+#~ msgid "Please enter the complete verification code."
+#~ msgstr "Lütfen doğrulama kodunu girin."
+
+#~ msgid "Account verified successfully!"
+#~ msgstr "Hesap başarıyla doğrulandı!"
+
+#~ msgid "User Not Found"
+#~ msgstr "Kullanıcı Bulunamadı"
+
+#~ msgid ""
+#~ "It looks like you don’t have an account. Please contact support or ask "
+#~ "your company for an invitation."
+#~ msgstr ""
+#~ "Görünüşe göre bir hesabınız yok. Lütfen destek ile iletişime geçin, veya "
+#~ "şirketinizden bir davetiye talep edin."
+
+#~ msgid "Unknown error occurred"
+#~ msgstr "Bilinmeyen hata oluştu."
+
+#~ msgid "Your Verification Code is Incorrect"
+#~ msgstr "Doğrulama Kodunuz Yanlış"
+
+#~ msgid "Selected Tenant Company has been changed successfully."
+#~ msgstr "Seçili Kullanıcı Şirketi başarıyla değiştirildi."
+
+#~ msgid "No selection has been made."
+#~ msgstr "Hiçbir seçim yapılmadı."
+
+#~ msgid "Company Account updated successfully."
+#~ msgstr "Şirket Hesabı başarıyla güncellendi."
+
+#~ msgid "Company Account created successfully."
+#~ msgstr "Şirket Hesabı başarıyla oluşturuldu."
+
+#~ msgid "Company Account Form"
+#~ msgstr "Şirket Hesap Formu"
+
+#~ msgid "Company Account '{}' successfully deleted."
+#~ msgstr "Şirket Hesabı '{}' başarıyla silindi."
+
+#~ msgid "Company Account '{}' cannot be deleted."
+#~ msgstr "Şirket Hesabı '{}' silinemez."
+
+#~ msgid "Invitation updated successfully."
+#~ msgstr "Davet başarıyla güncellendi."
+
+#~ msgid "Invitation created successfully."
+#~ msgstr "Davet başarıyla oluşturuldu."
+
+#~ msgid "Invitation Form"
+#~ msgstr "Davet Formu"
+
+#~ msgid "Address Title"
+#~ msgstr "Adres Başlığı"
+
+#~ msgid "Country"
+#~ msgstr "Ülke"
+
+#~ msgid "District"
+#~ msgstr "Mahalle"
+
+#~ msgid "Internal"
+#~ msgstr "Dahili"
+
+#~ msgid "The selected city does not belong to the selected country."
+#~ msgstr "Seçilen şehir seçilen ülkeye ait değildir."
+
+#~ msgid "The selected township does not belong to the selected city."
+#~ msgstr "Seçilen ilçe, seçilen şehre ait değildir."
+
+#~ msgid "The selected district does not belong to the selected township."
+#~ msgstr "Seçilen bölge, seçilen ilçeye ait değildir."
+
+#~ msgid "Alpha 2 Code"
+#~ msgstr "Alfa 2 Kodu"
+
+#~ msgid "Alpha 3 Code"
+#~ msgstr "Alfa 3 Kodu"
+
+#~ msgid "Calling Code"
+#~ msgstr "Arama Kodu"
+
+#~ msgid "Region Name"
+#~ msgstr "Bölge Adı"
+
+#~ msgid "Region Code"
+#~ msgstr "Bölge Kodu"
+
+#~ msgid "Region"
+#~ msgstr "Bölge"
+
+#~ msgid "Ex: 530 111 1111"
+#~ msgstr "Ör: 530 111 1111"
+
+#~ msgid "Address List"
+#~ msgstr "Adres Listesi"
+
+#~ msgid "Add Address"
+#~ msgstr "Adres Ekle"
+
+#~ msgid "You are about to delete the Address."
+#~ msgstr "Adresi silmek üzeresiniz."
+
+#~ msgid "Address updated successfully."
+#~ msgstr "Adres başarıyla güncellendi."
+
+#~ msgid "Address created successfully."
+#~ msgstr "Adres başarıyla oluşturuldu."
+
+#~ msgid "Address Form"
+#~ msgstr "Adres Formu"
+
+#~ msgid "Address '{}' successfully deleted."
+#~ msgstr "Adres '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Address '{}' cannot be deleted because it is referenced by other objects."
+#~ msgstr ""
+#~ "Adres '{}' diğer nesneler tarafından referanslandığı için silinemez."
+
+#~ msgid "Customer"
+#~ msgstr "Müşteri"
+
+#~ msgid "Start Date"
+#~ msgstr "Başlangıç Tarihi"
+
+#~ msgid "Agreement Termination Date"
+#~ msgstr "Sözleşme Bitiş Tarihi"
+
+#~ msgid "Signed Date"
+#~ msgstr "İmzalanma Tarihi"
+
+#~ msgid "Is Finished"
+#~ msgstr "Bitti Mi"
+
+#~ msgid "Finished At"
+#~ msgstr "Bittiği Tarih"
+
+#~ msgid "Auto Renewal"
+#~ msgstr "Otomatik Yenileme"
+
+#~ msgid "Payment Type"
+#~ msgstr "Ödeme Tipi"
+
+#~ msgid "File"
+#~ msgstr "Dosya"
+
+#~ msgid "File Description"
+#~ msgstr "Dosya Açıklaması"
+
+#~ msgid "Add Description"
+#~ msgstr "Açıklama Ekle"
+
+#~ msgid "Agreement File"
+#~ msgstr "Sözleşme Dosyası"
+
+#~ msgid "Agreement File of {}"
+#~ msgstr "{}'ye ait Sözleşme Dosyası"
+
+#~ msgid "Agreement"
+#~ msgstr "Sözleşme"
+
+#~ msgid "End Date"
+#~ msgstr "Bitiş Tarihi"
+
+#~ msgid "Description"
+#~ msgstr "Açıklama"
+
+#~ msgid "Agreement is required."
+#~ msgstr "Sözleşme gereklidir."
+
+#~ msgid "Agreement Protocol File"
+#~ msgstr "Sözleşme Protokol Dosyası"
+
+#~ msgid "Agreement Protocol File of {}"
+#~ msgstr "{}'ye ait Sözleşme Protokol Dosyası"
+
+#~ msgid "Monthly"
+#~ msgstr "Aylık"
+
+#~ msgid "Yearly"
+#~ msgstr "Yıllık"
+
+#~ msgid "One Time"
+#~ msgstr "Tek Seferlik"
+
+#~ msgid "Agreement Protocol"
+#~ msgstr "Sözleşme Protokolü"
+
+#~ msgid "File Data"
+#~ msgstr "Dosya Verisi"
+
+#~ msgid "Agreement Update"
+#~ msgstr "Sözleşme Güncellemesi"
+
+#~ msgid "Key"
+#~ msgstr "Anahtar"
+
+#~ msgid "Value"
+#~ msgstr "Değer"
+
+#~ msgid "Update Reason"
+#~ msgstr "Güncelleme Sebebi"
+
+#~ msgid "Signed At"
+#~ msgstr "İmzalanma Tarihi"
+
+#~ msgid "Add Protocol"
+#~ msgstr "Protokol Ekle"
+
+#~ msgid "Save and Add Protocol"
+#~ msgstr "Kaydet ve Protokol Ekle"
+
+#~ msgid "Agreement List"
+#~ msgstr "Sözleşme Listesi"
+
+#~ msgid "Add Agreement"
+#~ msgstr "Sözleşme Ekle"
+
+#~ msgid "Customer Name"
+#~ msgstr "Müşteri İsmi"
+
+#~ msgid "You are about to delete the Agreement."
+#~ msgstr "Sözleşmeyi silmek üzeresiniz."
+
+#~ msgid "Agreement updated successfully"
+#~ msgstr "Sözleşme başarıyla güncellendi."
+
+#~ msgid "Agreement created successfully"
+#~ msgstr "Sözleşme başarıyla oluşturuldu."
+
+#~ msgid "Agreement Form"
+#~ msgstr "Sözleşme Formu"
+
+#~ msgid "Agreement '{}' successfully deleted."
+#~ msgstr "Sözleşme '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Agreement '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "Sözleşme '{}' diğer nesneler tarafından referanslandığı için silinemez."
+
+#~ msgid "Agreement Protocol '{}' successfully deleted."
+#~ msgstr "Sözleşme Protokolü '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Agreement Protocol '{}' cannot be deleted because it is referenced by "
+#~ "other objects."
+#~ msgstr ""
+#~ "Sözleşme Protokolü '{}' diğer nesneler tarafından referanslandığı için "
+#~ "silinemez."
+
+#~ msgid "External Code"
+#~ msgstr "Harici Kod"
+
+#~ msgid "Trade Registry No"
+#~ msgstr "Ticaret Sicil Numarası"
+
+#~ msgid "Mersis No"
+#~ msgstr "Mersis Numarası"
+
+#~ msgid "Default Currency"
+#~ msgstr "Varsayılan Para Birimi"
+
+#~ msgid "Default Language"
+#~ msgstr "Varsayılan Dil"
+
+#~ msgid "Work Days"
+#~ msgstr "İş Günleri"
+
+#~ msgid "Work Start Hour"
+#~ msgstr "Mesai Başlangıç Saati"
+
+#~ msgid "Work End Hour"
+#~ msgstr "Mesai Bitiş Saati"
+
+#~ msgid "Company Logo"
+#~ msgstr "Şirket Logosu"
+
+#~ msgid "Company Logo of {}"
+#~ msgstr "{}'ye ait Şirket Logosu"
+
+#~ msgid "Expense Type"
+#~ msgstr "Masraf Tipi"
+
+#~ msgid "Amount"
+#~ msgstr "Tutar"
+
+#~ msgid "Employee"
+#~ msgstr "Çalışan"
+
+#~ msgid "Date"
+#~ msgstr "Tarih"
+
+#~ msgid "Explanation"
+#~ msgstr "Açıklama"
+
+#~ msgid "Is Approved"
+#~ msgstr "Onaylandı Mı"
+
+#~ msgid "Approved At"
+#~ msgstr "Onaylanma Tarihi"
+
+#~ msgid "Approved By"
+#~ msgstr "Onaylayan"
+
+#~ msgid "Is Paid"
+#~ msgstr "Ödendi Mi"
+
+#~ msgid "Paid At"
+#~ msgstr "Ödenme Tarihi"
+
+#~ msgid "Expense Files"
+#~ msgstr "Masraf Dosyaları"
+
+#~ msgid "Expense File"
+#~ msgstr "Masraf Dosyası"
+
+#~ msgid "Expense File of <{}>"
+#~ msgstr "{}'ye ait Masraf Dosyası"
+
+#~ msgid "Monday"
+#~ msgstr "Pazartesi"
+
+#~ msgid "Monday, Tuesday"
+#~ msgstr "Pazartesi, Salı"
+
+#~ msgid "Monday, Tuesday, Wednesday"
+#~ msgstr "Pazartesi, Salı, Çarşamba"
+
+#~ msgid "Monday, Tuesday, Wednesday, Thursday"
+#~ msgstr "Pazartesi, Salı, Çarşamba, Perşembe"
+
+#~ msgid "Monday, Tuesday, Wednesday, Thursday, Friday"
+#~ msgstr "Pazartesi, Salı, Çarşamba, Perşembe, Cuma"
+
+#~ msgid "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+#~ msgstr "Pazartesi, Salı, Çarşamba, Perşembe, Cuma, Cumartesi"
+
+#~ msgid "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+#~ msgstr "Pazartesi, Salı, Çarşamba, Perşembe, Cuma, Cumartesi, Pazar"
+
+#~ msgid "You already have an active subscription."
+#~ msgstr "Zaten aktif bir aboneliğiniz var."
+
+#~ msgid "You do not have an active subscription."
+#~ msgstr "Aktif bir aboneliğiniz yok."
+
+#~ msgid "Resource limit exceeded."
+#~ msgstr "Kaynak sınırı aşıldı."
+
+#~ msgid ""
+#~ "Default free plan not found. Please create a default free plan first."
+#~ msgstr ""
+#~ "Varsayılan ücretsiz plan bulunamadı. Lütfen önce varsayılan bir ücretsiz "
+#~ "plan oluşturun."
+
+#~ msgid "Is Default"
+#~ msgstr "Varsayılan Mı"
+
+#~ msgid "Expense"
+#~ msgstr "Masraf"
+
+#~ msgid "Employee Count"
+#~ msgstr "Çalışan Sayısı"
+
+#~ msgid "Customer Count"
+#~ msgstr "Müşteri Sayısı"
+
+#~ msgid "Expense Total"
+#~ msgstr "Masraf Toplamı"
+
+#~ msgid "Buying Invoice Total"
+#~ msgstr "Alış Fatura Toplamı"
+
+#~ msgid "Selling Invoice Total"
+#~ msgstr "Satış Fatura Toplamı"
+
+#~ msgid "Period Identifier"
+#~ msgstr "Periyot Belirteci"
+
+#~ msgid "Version"
+#~ msgstr "Versiyon"
+
+#~ msgid "Expense total cannot be negative."
+#~ msgstr "Masraf toplamı negatif olamaz."
+
+#~ msgid "Buying invoice total cannot be negative."
+#~ msgstr "Alış fatura toplamı negatif olamaz."
+
+#~ msgid "Selling invoice total cannot be negative."
+#~ msgstr "Satış fatura toplamı negatif olamaz."
+
+#~ msgid "Company List"
+#~ msgstr "Şirket Listesi"
+
+#~ msgid "Add Company"
+#~ msgstr "Şirket Ekle"
+
+#~ msgid "Default Address"
+#~ msgstr "Varsayılan Adres"
+
+#~ msgid "You are about to delete the Company."
+#~ msgstr "Şirketi silmek üzeresiniz."
+
+#~ msgid "Create Company"
+#~ msgstr "Şirket Oluştur"
+
+#~ msgid "Save"
+#~ msgstr "Kaydet"
+
+#~ msgid "Success!"
+#~ msgstr "Başarılı!"
+
+#~ msgid "Go to Company Form"
+#~ msgstr "Şirket Formuna Git"
+
+#~ msgid "Reloading in 0 seconds..."
+#~ msgstr "0 saniye içinde sayfa yenilenecek..."
+
+#~ msgid "Expense Formset"
+#~ msgstr "Masraf Form Seti"
+
+#~ msgid "Save All"
+#~ msgstr "Hepsini Kaydet"
+
+#~ msgid "Expense List"
+#~ msgstr "Masraf Listesi"
+
+#~ msgid "Add Expense"
+#~ msgstr "Masraf Ekle"
+
+#~ msgid "You are about to delete the Expense."
+#~ msgstr "Masrafı silmek üzeresiniz."
+
+#~ msgid "All fields are required."
+#~ msgstr "Bütün alanlar zorunludur."
+
+#~ msgid ""
+#~ "Company created successfully.<br>You can further customize it in the "
+#~ "company form."
+#~ msgstr ""
+#~ "Şirket başarıyla oluşturuldu.<br>Şirket formunda daha fazla özelleştirme "
+#~ "yapabilirsiniz."
+
+#~ msgid "Company updated successfully."
+#~ msgstr "Şirket başarıyla güncellendi."
+
+#~ msgid "Company created successfully."
+#~ msgstr "Şirket başarıyla oluşturuldu."
+
+#~ msgid "Company Form"
+#~ msgstr "Şirket Formu"
+
+#~ msgid "Company '{}' successfully deleted."
+#~ msgstr "Şirket '{}' başarıyla silindi."
+
+#~ msgid "Expense updated successfully."
+#~ msgstr "Masraf başarıyla güncellendi."
+
+#~ msgid "Expense created successfully."
+#~ msgstr "Masraf başarıyla oluşturuldu."
+
+#~ msgid "Expense Form"
+#~ msgstr "Masraf Formu"
+
+#~ msgid "Employee List"
+#~ msgstr "Çalışan Listesi"
+
+#~ msgid "Employee Leaves"
+#~ msgstr "Çalışan İzinleri"
+
+#~ msgid "Expenses"
+#~ msgstr "Masraflar"
+
+#~ msgid "Products"
+#~ msgstr "Ürünler"
+
+#~ msgid "Brands"
+#~ msgstr "Markalar"
+
+#~ msgid "Categories"
+#~ msgstr "Kategoriler"
+
+#~ msgid "Warehouses"
+#~ msgstr "Depolar"
+
+#~ msgid "Inventories"
+#~ msgstr "Envanterler"
+
+#~ msgid "Inventory Items"
+#~ msgstr "Envanter Zimmetleri"
+
+#~ msgid "Customers"
+#~ msgstr "Müşteriler"
+
+#~ msgid "Agreements"
+#~ msgstr "Sözleşmeler"
+
+#~ msgid "Invoices"
+#~ msgstr "Faturalar"
+
+#~ msgid "Finance Action List"
+#~ msgstr "Finans Eylem Listesi"
+
+#~ msgid "Case List"
+#~ msgstr "Kasa Listesi"
+
+#~ msgid "Log List"
+#~ msgstr "Kayıt Listesi"
+
+#~ msgid "Session List"
+#~ msgstr "Oturum Listesi"
+
+#~ msgid "Native Name"
+#~ msgstr "Yerli Adı"
+
+#~ msgid "Flag"
+#~ msgstr "Bayrak"
+
+#~ msgid "Flag Url, example: https://restcountries.eu/data/tur.svg"
+#~ msgstr "Bayrak URL'si, örnek: https://restcountries.eu/data/tur.svg"
+
+#~ msgid "User <{}> logged in.\n"
+#~ msgstr "Kullanıcı <{}> giriş yaptı.\n"
+
+#~ msgid "Account: <{}>.\n"
+#~ msgstr "Hesap: <{}>.\n"
+
+#~ msgid "User <{}> logged out.\n"
+#~ msgstr "Kullanıcı <{}> çıkış yaptı.\n"
+
+#~ msgid "Failure reason: {}.\n"
+#~ msgstr "Başarısızlık sebebi: {}.\n"
+
+#~ msgid ""
+#~ "User login failed.\n"
+#~ "\n"
+#~ "{}Credentials: {}.\n"
+#~ msgstr ""
+#~ "Kullanıcı girişi başarısız.\n"
+#~ "\n"
+#~ "{}Kimlik bilgileri: {}.\n"
+
+#~ msgid "{} <{}> created.\n"
+#~ msgstr "{} <{}> oluşturuldu.\n"
+
+#~ msgid "{} <{}> updated.\n"
+#~ msgstr "{} <{}> güncellendi.\n"
+
+#~ msgid "{} <{}> deleted.\n"
+#~ msgstr "{} <{}> silindi.\n"
+
+#~ msgid "Subscription Details"
+#~ msgstr "Abonelik Detayları"
+
+#~ msgid "Company Accounts"
+#~ msgstr "Şirket Hesapları"
+
+#~ msgid "Company Settings"
+#~ msgstr "Şirket Ayarları"
+
+#~ msgid "Add New Company"
+#~ msgstr "Yeni Şirket Ekle"
+
+#~ msgid "Go Back To Home"
+#~ msgstr "Ana Sayfaya Dön"
+
+#~ msgid "Go back to home"
+#~ msgstr "Ana Sayfaya Dön"
+
+#~ msgid "View notifications"
+#~ msgstr "Bildirimleri görüntüle"
+
+#~ msgid "Notifications"
+#~ msgstr "Bildirimler"
+
+#~ msgid "View all"
+#~ msgstr "Hepsini gör"
+
+#~ msgid "Admin Panel"
+#~ msgstr "Yönetici Paneli"
+
+#~ msgid "Account Settings"
+#~ msgstr "Hesap Ayarları"
+
+#~ msgid "Sign out"
+#~ msgstr "Çıkış yap"
+
+#~ msgid "Error! Please try again"
+#~ msgstr "Hata! Lütfen tekrar deneyin"
+
+#~ msgid "Product"
+#~ msgstr "Ürün"
+
+#~ msgid "Inventory"
+#~ msgstr "Envanter"
+
+#~ msgid "Invoice"
+#~ msgstr "Fatura"
+
+#~ msgid "Finance"
+#~ msgstr "Finans"
+
+#~ msgid "Event Logs"
+#~ msgstr "Olay Günlükleri"
+
+#~ msgid "Toggle zoom"
+#~ msgstr "Yakınlaştırmayı aç/kapat"
+
+#~ msgid "Toggle pan"
+#~ msgstr "Kaydırmayı aç/kapat"
+
+#~ msgid "Reset zoom"
+#~ msgstr "Yakınlaştırmayı sıfırla"
+
+#~ msgid "Activity Calendar"
+#~ msgstr "Etkinlik Takvimi"
+
+#~ msgid "Pan: enabled"
+#~ msgstr "Kaydırma: açık"
+
+#~ msgid "Pan: disabled"
+#~ msgstr "Kaydırma: kapalı"
+
+#~ msgid "Zoom: enabled"
+#~ msgstr "Yakınlaştırma: açık"
+
+#~ msgid "Zoom: disabled"
+#~ msgstr "Yakınlaştırma: kapalı"
+
+#~ msgid "Count"
+#~ msgstr "Sayı"
+
+#~ msgid "Financial Overview"
+#~ msgstr "Mali Genel Bakış"
+
+#~ msgid "Employee Headcount Summary"
+#~ msgstr "Çalışan Sayısı Özeti"
+
+#~ msgid "Customer Count Summary"
+#~ msgstr "Müşteri Sayısı Özeti"
+
+#~ msgid "Today"
+#~ msgstr "Bugün"
+
+#~ msgid "No Events Today"
+#~ msgstr "Bugün Etkinlik Yok"
+
+#~ msgid "Employees with Birthdays"
+#~ msgstr "Doğum Günü Olan Çalışanlar"
+
+#~ msgid "Employees On Leave"
+#~ msgstr "İzinde Olan Çalışanlar"
+
+#~ msgid "Page Not Found"
+#~ msgstr "Sayfa Bulunamadı"
+
+#~ msgid "Sorry, the page you are looking for does not exist."
+#~ msgstr "Üzgünüz, aradığınız sayfa mevcut değil."
+
+#~ msgid "Back to Home"
+#~ msgstr "Ana Sayfaya Dön"
+
+#~ msgid "Internal Server Error."
+#~ msgstr "Sunucu Hatası."
+
+#~ msgid ""
+#~ "Try to refresh this page or feel free to contact us if the problem "
+#~ "persists."
+#~ msgstr ""
+#~ "Lütfen bu sayfayı yenilemeyi deneyin. Sorun devam ederse, daha fazla "
+#~ "yardım için bizimle iletişime geçmekten çekinmeyin."
+
+#~ msgid "Contact support"
+#~ msgstr "Desteğe Bağlan"
+
+#~ msgid "Update"
+#~ msgstr "Güncelle"
+
+#~ msgid "User must have a selected company."
+#~ msgstr "Kullanıcının bir seçili bir şirketi olmak zorundadır."
+
+#~ msgid "Month parameter cannot be blank."
+#~ msgstr "Ay parametresi boş olamaz."
+
+#~ msgid "Month parameter is invalid."
+#~ msgstr "Ay parametresi geçersiz."
+
+#~ msgid "Invoice Email"
+#~ msgstr "Fatura Epostası"
+
+#~ msgid "Invoice Contact"
+#~ msgstr "Fatura İletişimi"
+
+#~ msgid "Is Supplier"
+#~ msgstr "Tedarikçi Mi"
+
+#~ msgid "Balance"
+#~ msgstr "Bakiye"
+
+#~ msgid "Address Name"
+#~ msgstr "Adres Adı"
+
+#~ msgid "Customer List"
+#~ msgstr "Müşteri Listesi"
+
+#~ msgid "Add Customer"
+#~ msgstr "Müşteri Ekle"
+
+#~ msgid "Activate"
+#~ msgstr "Etkinleştir"
+
+#~ msgid "Deactivate"
+#~ msgstr "Pasifleştir"
+
+#~ msgid "You are about to delete the Customer."
+#~ msgstr "Müşteriyi silmek üzeresiniz."
+
+#~ msgid "Customer updated successfully."
+#~ msgstr "Müşteri başarıyla güncellendi."
+
+#~ msgid "Customer created successfully."
+#~ msgstr "Müşteri başarıyla oluşturuldu."
+
+#~ msgid "Customer Form"
+#~ msgstr "Müşteri Formu"
+
+#~ msgid "Customer '{}' successfully deleted."
+#~ msgstr "Müşteri '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Customer '{}' cannot be deleted because it is referenced by other objects."
+#~ msgstr ""
+#~ "Müşteri '{}' diğer nesneler tarafından referans alındığı için silinemiyor."
+
+#~ msgid "Customer '{}' successfully deactivated."
+#~ msgstr "Müşteri '{}' başarıyla pasifleştirildi."
+
+#~ msgid "Customer '{}' successfully activated."
+#~ msgstr "Müşteri '{}' başarıyla aktifleştirildi."
+
+#~ msgid "Employee Name"
+#~ msgstr "Çalışan İsmi"
+
+#~ msgid "Birth Place"
+#~ msgstr "Doğum Yeri"
+
+#~ msgid "Personnel Email"
+#~ msgstr "Personel Epostası"
+
+#~ msgid "Personnel Phone"
+#~ msgstr "Personel Telefonu"
+
+#~ msgid "Work Start Date"
+#~ msgstr "İşe Başlama Tarihi"
+
+#~ msgid "Work End Date"
+#~ msgstr "İşten Çıkış Tarihi"
+
+#~ msgid "Marital Status"
+#~ msgstr "Medeni Hal"
+
+#~ msgid "Married Date"
+#~ msgstr "Evlenme Tarihi"
+
+#~ msgid "Nationality"
+#~ msgstr "Uyruk"
+
+#~ msgid "University"
+#~ msgstr "Üniversite"
+
+#~ msgid "Profile Picture"
+#~ msgstr "Profil Resmi"
+
+#~ msgid "Employee File"
+#~ msgstr "Çalışan Dosyası"
+
+#~ msgid "Position"
+#~ msgstr "Pozisyon"
+
+#~ msgid "Example: "
+#~ msgstr "Örnek: "
+
+#~ msgid "University Department"
+#~ msgstr "Üniversite Departmanı"
+
+#~ msgid "Emergency Contact {} Name"
+#~ msgstr "Acil Durum İletişim {} Adı"
+
+#~ msgid "Emergency Contact {} Phone"
+#~ msgstr "Acil Durum İletişim {} Telefon Numarası"
+
+#~ msgid "Emergency Contact {} Degree of Closeness"
+#~ msgstr "Acil Durum İletişim {} Yakınlık Derecesi"
+
+#~ msgid "Education Level"
+#~ msgstr "Tahsil Seviyesi"
+
+#~ msgid "Identity Information"
+#~ msgstr "Kimlik Bilgileri"
+
+#~ msgid "Contact Information"
+#~ msgstr "İletişim Bilgileri"
+
+#~ msgid "Emergency Contacts"
+#~ msgstr "Acil Durum Kişileri"
+
+#~ msgid "Address Information"
+#~ msgstr "Adres Bilgileri"
+
+#~ msgid "Education Information"
+#~ msgstr "Eğitim Bilgileri"
+
+#~ msgid "Business Information"
+#~ msgstr "İşletme Bilgileri"
+
+#~ msgid "Invalid IBAN number"
+#~ msgstr "Geçersiz IBAN Numarası"
+
+#~ msgid "Profile picture of {}"
+#~ msgstr "{}'ye ait profil resmi"
+
+#~ msgid "Identity number is not valid."
+#~ msgstr "Kimlik numarası geçerli değil."
+
+#~ msgid "Employee File of {}"
+#~ msgstr "{}'ye ait Çalışan Dosyası"
+
+#~ msgid "Leave Start Date"
+#~ msgstr "İzin Başlangıç Tarihi"
+
+#~ msgid "Leave End Date"
+#~ msgstr "İzin Bitiş Tarihi"
+
+#~ msgid "Leave Reason"
+#~ msgstr "İzin Sebebi"
+
+#~ msgid "Annual Leave Use"
+#~ msgstr "Yıllık İzin Kullan"
+
+#~ msgid "Employee Leave File"
+#~ msgstr "Çalışan İzni Dosyası"
+
+#~ msgid "Employee Leave File of {}"
+#~ msgstr "{}'ye ait Çalışan İzni Dosyası"
+
+#~ msgid "Prefer not to say"
+#~ msgstr "Belirtmek İstemiyorum"
+
+#~ msgid "Male"
+#~ msgstr "Erkek"
+
+#~ msgid "Female"
+#~ msgstr "Kadın"
+
+#~ msgid "Married"
+#~ msgstr "Evli"
+
+#~ msgid "Single"
+#~ msgstr "Bekar"
+
+#~ msgid "Divorced"
+#~ msgstr "Boşanmış"
+
+#~ msgid "Work Entry"
+#~ msgstr "İşe Giriş"
+
+#~ msgid "Work Leave"
+#~ msgstr "İşten Çıkış"
+
+#~ msgid "Primary School"
+#~ msgstr "İlkokul"
+
+#~ msgid "Middle School"
+#~ msgstr "Ortaokul"
+
+#~ msgid "High School"
+#~ msgstr "Lise"
+
+#~ msgid "Associate Degree"
+#~ msgstr "Ön Lisans"
+
+#~ msgid "Bachelor's Degree"
+#~ msgstr "Lisans"
+
+#~ msgid "Master's Degree"
+#~ msgstr "Yüksek Lisans"
+
+#~ msgid "Doctorate"
+#~ msgstr "Doktora"
+
+#~ msgid "Spouse"
+#~ msgstr "Eş"
+
+#~ msgid "Sibling"
+#~ msgstr "Kardeş"
+
+#~ msgid "Parent"
+#~ msgstr "Ebeveyn"
+
+#~ msgid "Relative"
+#~ msgstr "Akraba"
+
+#~ msgid "Friend"
+#~ msgstr "Arkadaş"
+
+#~ msgid "First"
+#~ msgstr "Birinci"
+
+#~ msgid "Second"
+#~ msgstr "İkinci"
+
+#~ msgid "Third"
+#~ msgstr "Üçüncü"
+
+#~ msgid "Faculty"
+#~ msgstr "Fakülte"
+
+#~ msgid "Birth date is required."
+#~ msgstr "Doğum tarihi gereklidir."
+
+#~ msgid "Marriage date is required."
+#~ msgstr "Evlilik tarihi gereklidir."
+
+#, fuzzy
+#~| msgid "Leave End Date must be greater than Leave Start Date."
+#~ msgid "The earlier date and the later date cannot both be null."
+#~ msgstr "İzin Bitiş Tarihi, İzin Başlangıç Tarihinden büyük olmalıdır."
+
+#, fuzzy
+#~| msgid "Leave End Date must be greater than Leave Start Date."
+#~ msgid "The earlier date cannot be greater than the later date."
+#~ msgstr "İzin Bitiş Tarihi, İzin Başlangıç Tarihinden büyük olmalıdır."
+
+#, python-format
+#~ msgid "%d year(s), %d month(s), %d day(s)"
+#~ msgstr "%d yıl, %d ay, %d gün"
+
+#~ msgid "Employee Leave"
+#~ msgstr "Çalışan İzni"
+
+#~ msgid ""
+#~ "Both employee and employee_leave cannot be null. At least one must have a "
+#~ "value."
+#~ msgstr ""
+#~ "Hem çalışan hem de çalışan izni boş olamaz. En az birinin bir değeri "
+#~ "olmalıdır."
+
+#~ msgid "Annual Leave"
+#~ msgstr "Yıllık İzin"
+
+#~ msgid "Paid Leave"
+#~ msgstr "Ücretli İzin"
+
+#~ msgid "Unpaid Leave"
+#~ msgstr "Ücretsiz İzin"
+
+#~ msgid "Sick Leave"
+#~ msgstr "Hastalık İzni"
+
+#~ msgid "Maternity Leave"
+#~ msgstr "Annelik İzni"
+
+#~ msgid "Paternity Leave"
+#~ msgstr "Babalık İzni"
+
+#~ msgid "Marriage Leave"
+#~ msgstr "Evlilik İzni"
+
+#~ msgid "Administrative Leave"
+#~ msgstr "İdari İzin"
+
+#~ msgid "Family Leave"
+#~ msgstr "Aile İzni"
+
+#~ msgid "Leave End Date must be greater than Leave Start Date."
+#~ msgstr "İzin Bitiş Tarihi, İzin Başlangıç Tarihinden büyük olmalıdır."
+
+#~ msgid "Degree of Closeness"
+#~ msgstr "Yakınlık Derecesi"
+
+#~ msgid "Emergency Contact"
+#~ msgstr "Acil Durum Kişisi"
+
+#~ msgid "Send Email"
+#~ msgstr "Eposta Gönder"
+
+#~ msgid "Personal Information"
+#~ msgstr "Kişisel Bilgiler"
+
+#~ msgid "Birthday"
+#~ msgstr "Doğum Günü"
+
+#~ msgid "Employment Overview"
+#~ msgstr "Çalışma Durumu Genel Görünümü"
+
+#~ msgid "Total Work Duration"
+#~ msgstr "Toplam Çalışma Süresi"
+
+#~ msgid "Remaining Leave Days"
+#~ msgstr "Kalan İzin Günleri"
+
+#~ msgid "Day"
+#~ msgstr "Gün"
+
+#, fuzzy
+#~| msgid "Total Leave Days"
+#~ msgid "Total Leave Days This Year"
+#~ msgstr "Toplam İzin Günü"
+
+#~ msgid "Total Leave Days"
+#~ msgstr "Toplam İzin Günü"
+
+#~ msgid "Department"
+#~ msgstr "Departman"
+
+#~ msgid "Personal Contact"
+#~ msgstr "Kişisel İletişim"
+
+#~ msgid "Personnel Files"
+#~ msgstr "Personel Dosyaları"
+
+#~ msgid "No files found"
+#~ msgstr "Dosya bulunamadı"
+
+#~ msgid "Employee Leave List"
+#~ msgstr "Çalışan İzin Listesi"
+
+#~ msgid "Add Employee Leave"
+#~ msgstr "Çalışan İzni Ekle"
+
+#~ msgid "Leave Total Hours"
+#~ msgstr "Toplam İzin Saati"
+
+#~ msgid "Leave Total Days"
+#~ msgstr "Toplam İzin Günü"
+
+#~ msgid "You are about to delete the Employee Leave."
+#~ msgstr "Çalışan İznini silmek üzeresiniz."
+
+#~ msgid "Add Employee"
+#~ msgstr "Çalışan Ekle"
+
+#~ msgid "You are about to delete the Employee."
+#~ msgstr "Çalışanı silmek üzeresiniz."
+
+#~ msgid "Existing Files"
+#~ msgstr "Mevcut Dosyalar"
+
+#~ msgid "Employee updated successfully."
+#~ msgstr "Çalışan başarıyla güncellendi."
+
+#~ msgid "Employee created successfully."
+#~ msgstr "Çalışan başarıyla oluşturuldu."
+
+#~ msgid "Employee Form"
+#~ msgstr "Çalışan Formu"
+
+#~ msgid "Employee '{}' successfully deleted."
+#~ msgstr "Çalışan '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Employee '{}' cannot be deleted because it is referenced by other objects."
+#~ msgstr ""
+#~ "Çalışan '{}' diğer nesneler tarafından referans alındığı için silinemiyor."
+
+#~ msgid "Employee Leave updated successfully."
+#~ msgstr "Çalışan İzni başarıyla güncellendi."
+
+#~ msgid "Employee Leave created successfully."
+#~ msgstr "Çalışan İzni başarıyla oluşturuldu."
+
+#~ msgid "Employee Leave Form"
+#~ msgstr "Çalışan İzin Formu"
+
+#~ msgid "Employee Leave '{}' successfully deleted."
+#~ msgstr "Çalışan İzni '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Employee Leave '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "Çalışan İzni '{}' diğer nesneler tarafından referans alındığı için "
+#~ "silinemiyor."
+
+#~ msgid "Action Type"
+#~ msgstr "Eylem Tipi"
+
+#~ msgid "Bank"
+#~ msgstr "Banka"
+
+#~ msgid "Check Collection Date"
+#~ msgstr "Çek Tahsil Tarihi"
+
+#~ msgid "Check Serial Number"
+#~ msgstr "Çek Seri Numarası"
+
+#~ msgid "Received At"
+#~ msgstr "Alma Tarihi"
+
+#~ msgid "Installment"
+#~ msgstr "Taksit"
+
+#~ msgid "Host Ref Num"
+#~ msgstr "Sunucu Referans Numarası"
+
+#~ msgid "Commission Amount"
+#~ msgstr "Komisyon Miktarı"
+
+#~ msgid "Commission Rate"
+#~ msgstr "Komisyon Oranı"
+
+#~ msgid "Fine Amount"
+#~ msgstr "Ceza Miktarı"
+
+#~ msgid "Is Cancelled"
+#~ msgstr "İptal Edildi Mi"
+
+#~ msgid "Cancelled At"
+#~ msgstr "İptal Edilme Tarihi"
+
+#~ msgid "Cancelled By"
+#~ msgstr "İptal Eden"
+
+#~ msgid "Cashback"
+#~ msgstr "Nakit İade"
+
+#~ msgid "Case"
+#~ msgstr "Kasa"
+
+#~ msgid "Currency"
+#~ msgstr "Para Birimi"
+
+#~ msgid "Currency Total"
+#~ msgstr "Döviz Toplamı"
+
+#~ msgid "Exchange Rate"
+#~ msgstr "Döviz Kuru"
+
+#~ msgid "Case Type"
+#~ msgstr "Kasa Tipi"
+
+#~ msgid "Initial Amount"
+#~ msgstr "İlk Tutar"
+
+#~ msgid "Cash"
+#~ msgstr "Nakit"
+
+#~ msgid "Check"
+#~ msgstr "Çek"
+
+#~ msgid "Inflow"
+#~ msgstr "Para Girişi"
+
+#~ msgid "Outflow"
+#~ msgstr "Para Çıkışı"
+
+#~ msgid "Symbol"
+#~ msgstr "Sembol"
+
+#~ msgid "Only one currency can be default."
+#~ msgstr "Sadece bir para birimi varsayılan olabilir."
+
+#~ msgid "Currency Date"
+#~ msgstr "Kur Tarihi"
+
+#~ msgid "User parameter is required for default case creation."
+#~ msgstr "Varsayılan kasa oluşturma için kullanıcı parametresi gereklidir."
+
+#~ msgid "Center Case"
+#~ msgstr "Merkez Kasa"
+
+#~ msgid "Status"
+#~ msgstr "Durum"
+
+#~ msgid "Comission Rate"
+#~ msgstr "Komisyon Oranı"
+
+#~ msgid "Add Case"
+#~ msgstr "Kasa Ekle"
+
+#~ msgid "You are about to delete the Case."
+#~ msgstr "Kasayı silmek üzeresiniz."
+
+#~ msgid "Finance Action"
+#~ msgstr "Finans Eylemi"
+
+#~ msgid "Add Finance Action"
+#~ msgstr "Finans Eylemi Ekle"
+
+#~ msgid "You are about to delete the Finance Action."
+#~ msgstr "Finans Eylemini silmek üzeresiniz."
+
+#~ msgid "Finance Action updated successfully."
+#~ msgstr "Finans Eylemi başarıyla güncellendi."
+
+#~ msgid "Finance Action created successfully."
+#~ msgstr "Finans Eylemi başarıyla oluşturuldu."
+
+#~ msgid "Finance Action Form"
+#~ msgstr "Finans Eylem Formu"
+
+#~ msgid "Finance Action '{}' successfully deleted."
+#~ msgstr "Finans Eylemi '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Finance Action '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "Finans Eylemi '{}' diğer nesneler tarafından referans alındığı için "
+#~ "silinemiyor."
+
+#~ msgid "Case updated successfully."
+#~ msgstr "Kasa başarıyla güncellendi."
+
+#~ msgid "Case created successfully."
+#~ msgstr "Kasa başarıyla oluşturuldu."
+
+#~ msgid "Case Form"
+#~ msgstr "Kasa Formu"
+
+#~ msgid "Case '{}' successfully deleted."
+#~ msgstr "Kasa '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Case '{}' cannot be deleted because it is referenced by other objects."
+#~ msgstr ""
+#~ "Kasa '{}' diğer nesneler tarafından referans alındığı için silinemiyor."
+
+#~ msgid "Title"
+#~ msgstr "Başlık"
+
+#~ msgid "File Title"
+#~ msgstr "Dosya Başlığı"
+
+#~ msgid "File Type"
+#~ msgstr "Dosya Tipi"
+
+#~ msgid "Alt Info"
+#~ msgstr "Alt Bilgi"
+
+#~ msgid "Upload File"
+#~ msgstr "Dosya Yükle"
+
+#~ msgid "Image"
+#~ msgstr "Resim"
+
+#~ msgid "Product Image"
+#~ msgstr "Ürün Resmi"
+
+#~ msgid "File type is not supported."
+#~ msgstr "Dosya tipi desteklenmemektedir."
+
+#~ msgid "Original File Name"
+#~ msgstr "Orijinal Dosya Adı"
+
+#~ msgid "File required."
+#~ msgstr "Dosya gerekli."
+
+#~ msgid ""
+#~ "File type '{}' with extension '{}' is not supported. Supported file "
+#~ "extensions are: {}."
+#~ msgstr ""
+#~ "Dosya tipi '{}', '{}' uzantısıyla desteklenmemektedir. Desteklenen dosya "
+#~ "uzantıları: {}."
+
+#~ msgid "File size should not exceed {} MB."
+#~ msgstr "Dosya boyutu {} MB'yi geçmemelidir."
+
+#~ msgid "Uploaded File Name"
+#~ msgstr "Yüklenmiş Dosyanın Adı"
+
+#~ msgid "Link"
+#~ msgstr "Bağlantı"
+
+#~ msgid "File List"
+#~ msgstr "Dosya Listesi"
+
+#~ msgid "Add File"
+#~ msgstr "Dosya Ekle"
+
+#~ msgid "You are about to delete the File."
+#~ msgstr "Dosyayı silmek üzeresiniz."
+
+#~ msgid "Existing File"
+#~ msgstr "Mevcut Dosya"
+
+#~ msgid "File updated successfully."
+#~ msgstr "Dosya başarıyla güncellendi."
+
+#~ msgid "File created successfully."
+#~ msgstr "Dosya başarıyla oluşturuldu."
+
+#~ msgid "File Form"
+#~ msgstr "Dosya Formu"
+
+#~ msgid "File '{}' successfully deleted."
+#~ msgstr "Dosya '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "File '{}' cannot be deleted because it is referenced by other objects."
+#~ msgstr ""
+#~ "Dosya '{}' diğer nesneler tarafından referans alındığı için silinemiyor."
+
+#~ msgid "Warehouse"
+#~ msgstr "Depo"
+
+#~ msgid "Quantity"
+#~ msgstr "Miktar"
+
+#~ msgid "Invoice Item"
+#~ msgstr "Fatura Kalemi"
+
+#~ msgid "Serial Number"
+#~ msgstr "Seri Numarası"
+
+#~ msgid "Serial No"
+#~ msgstr "Seri Numarası"
+
+#~ msgid "Purchase Date"
+#~ msgstr "Satın Alınma Tarihi"
+
+#~ msgid "Is In Warranty"
+#~ msgstr "Garanti Kapsamında Mı"
+
+#~ msgid "Warranty Start Date"
+#~ msgstr "Garanti Başlangıç Tarihi"
+
+#~ msgid "Warranty Expiration Date"
+#~ msgstr "Garanti Bitiş Tarihi"
+
+#~ msgid "Available"
+#~ msgstr "Müsait"
+
+#~ msgid "In Use"
+#~ msgstr "Kullanımda"
+
+#~ msgid "Maintenance"
+#~ msgstr "Bakım"
+
+#~ msgid "Retired"
+#~ msgstr "Emekli edilmiş"
+
+#~ msgid "User parameter is required for default warehouse creation."
+#~ msgstr "Varsayılan depo oluşturma için kullanıcı parametresi gereklidir."
+
+#~ msgid "Main Warehouse"
+#~ msgstr "Ana Depo"
+
+#~ msgid ""
+#~ "Insufficient inventory: The available quantity ({}) is less than or equal "
+#~ "to the number of inventory items ({})."
+#~ msgstr ""
+#~ "Yetersiz envanter: Müsait miktar ({}), envanter ögelerinin sayısından "
+#~ "({}) daha düşük veya ona eşit."
+
+#~ msgid "Inventory Item"
+#~ msgstr "Envanter Zimmeti"
+
+#~ msgid "Inventory Item List"
+#~ msgstr "Envanter Zimmeti Listesi"
+
+#~ msgid "Add Inventory Item"
+#~ msgstr "Envanter Zimmeti Ekle"
+
+#~ msgid "You are about to delete the Inventory Item."
+#~ msgstr "Envanter Kalemini silmek üzeresiniz."
+
+#~ msgid "Inventory List"
+#~ msgstr "Envanter Listesi"
+
+#~ msgid "Add Inventory"
+#~ msgstr "Envanter Ekle"
+
+#~ msgid "You are about to delete the Inventory."
+#~ msgstr "Envanteri silmek üzeresiniz."
+
+#~ msgid "Warehouse List"
+#~ msgstr "Depo Listesi"
+
+#~ msgid "Add Warehouse"
+#~ msgstr "Depo Ekle"
+
+#~ msgid "You are about to delete the Warehouse."
+#~ msgstr "Depoyu silmek üzeresiniz."
+
+#~ msgid "Warehouse updated successfully."
+#~ msgstr "Depo başarıyla güncellendi."
+
+#~ msgid "Warehouse created successfully."
+#~ msgstr "Depo başarıyla oluşturuldu."
+
+#~ msgid "Warehouse Form"
+#~ msgstr "Depo Formu"
+
+#~ msgid "Warehouse '{}' successfully deleted."
+#~ msgstr "Depo '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Warehouse '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "Depo '{}' diğer nesneler tarafından referans alındığı için silinemiyor."
+
+#~ msgid "Inventory updated successfully."
+#~ msgstr "Envanter başarıyla güncellendi."
+
+#~ msgid "Inventory created successfully."
+#~ msgstr "Envanter başarıyla oluşturuldu."
+
+#~ msgid "Inventory Form"
+#~ msgstr "Envanter Formu"
+
+#~ msgid "Inventory '{}' successfully deleted."
+#~ msgstr "Envanter '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Inventory '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "Envanter '{}' diğer nesneler tarafından referans alındığı için "
+#~ "silinemiyor."
+
+#~ msgid "Inventory Item updated successfully."
+#~ msgstr "Envanter Zimmeti başarıyla güncellendi."
+
+#~ msgid "Inventory Item created successfully."
+#~ msgstr "Envanter Zimmeti başarıyla oluşturuldu."
+
+#~ msgid "Inventory Item Form"
+#~ msgstr "Envanter Zimmeti Formu"
+
+#~ msgid "Inventory Item '{}' successfully deleted."
+#~ msgstr "Envanter Zimmeti '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Inventory Item '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "Envanter Kalemi '{}' diğer nesneler tarafından referans alındığı için "
+#~ "silinemiyor."
+
+#~ msgid "Invoice Number"
+#~ msgstr "Fatura Numarası"
+
+#~ msgid "Invoice No"
+#~ msgstr "Fatura No"
+
+#~ msgid "Invoice Date"
+#~ msgstr "Fatura Tarihi"
+
+#~ msgid "Invoice Time"
+#~ msgstr "Fatura Saati"
+
+#~ msgid "Order No"
+#~ msgstr "Sipariş No"
+
+#~ msgid "Total"
+#~ msgstr "Toplam"
+
+#~ msgid "Total VAT"
+#~ msgstr "Toplam KDV"
+
+#~ msgid "Total Discount"
+#~ msgstr "Toplam İndirim"
+
+#~ msgid "Invoice Type"
+#~ msgstr "Fatura Tipi"
+
+#~ msgid "External Id"
+#~ msgstr "Harici ID"
+
+#~ msgid "Notes"
+#~ msgstr "Notlar"
+
+#~ msgid "E-Invoice"
+#~ msgstr "E-Fatura"
+
+#~ msgid "E-Invoice Type"
+#~ msgstr "E-Fatura Tipi"
+
+#~ msgid "Send Mod"
+#~ msgstr "Gönderme Modu"
+
+#~ msgid "Int Sales Addr"
+#~ msgstr "Uluslararası Satış Adresi"
+
+#~ msgid "Ship Date"
+#~ msgstr "Sevk Tarihi"
+
+#~ msgid "Exemption Reason"
+#~ msgstr "Muafiyet Sebebi"
+
+#~ msgid "Mobile Phone"
+#~ msgstr "Mobil Telefon"
+
+#~ msgid "Address Receiver Name"
+#~ msgstr "Adres Alıcı Adı"
+
+#~ msgid "VAT"
+#~ msgstr "KDV"
+
+#~ msgid "VAT Share Ratio"
+#~ msgstr "KDV Payı Oranı"
+
+#~ msgid "Vat and Vat Share Ratio cannot both be empty."
+#~ msgstr "KDV ve KDV Payı Oranının her ikisi de boş olamaz."
+
+#~ msgid "Vat and Vat Share Ratio cannot both have values."
+#~ msgstr "KDV ve KDV Pay Oranı değerlerinin her ikisi birlikte dolu olamaz."
+
+#~ msgid "Product Barcode"
+#~ msgstr "Ürün Barkodu"
+
+#~ msgid "Product Code"
+#~ msgstr "Ürün Kodu"
+
+#~ msgid "Product Name"
+#~ msgstr "Ürün Adı"
+
+#~ msgid "Unit"
+#~ msgstr "Birim"
+
+#~ msgid "Discount Amount"
+#~ msgstr "İndirim Tutarı"
+
+#~ msgid "Discount Ratio"
+#~ msgstr "İndirim Oranı"
+
+#~ msgid "Price"
+#~ msgstr "Fiyat"
+
+#~ msgid "Price With VAT"
+#~ msgstr "KDV Dahil Fiyat"
+
+#~ msgid "Buying"
+#~ msgstr "Satın Alma"
+
+#~ msgid "Selling"
+#~ msgstr "Satış"
+
+#~ msgid "Buying Return"
+#~ msgstr "Satın Alma İadesi"
+
+#~ msgid "Selling Return"
+#~ msgstr "Satış İadesi"
+
+#~ msgid "Service Cost"
+#~ msgstr "Hizmet Maliyeti"
+
+#~ msgid "Selling Service Cost"
+#~ msgstr "Satış Servis Maliyeti"
+
+#~ msgid "Selling From Waybill"
+#~ msgstr "İrsaliyeden Satış"
+
+#~ msgid "Transfer"
+#~ msgstr "Transfer"
+
+#~ msgid "Difference"
+#~ msgstr "Farklar"
+
+#~ msgid "Vat"
+#~ msgstr "Kdv"
+
+#~ msgid "Vat Share Ratio"
+#~ msgstr "KDV Pay Oranı"
+
+#~ msgid "Exemption Reasons"
+#~ msgstr "Muafiyet Sebepleri"
+
+#~ msgid "Is Waybill"
+#~ msgstr "İrsaliye mi"
+
+#~ msgid "External ID"
+#~ msgstr "Harici ID"
+
+#~ msgid "Is Sent To Gib"
+#~ msgstr "GİB'e Gönderildi"
+
+#~ msgid "Is E-Invoice"
+#~ msgstr "E-Fatura Mı"
+
+#~ msgid "For description purposes"
+#~ msgstr "Tanımlama amacıyla"
+
+#~ msgid "Shown on the invoice"
+#~ msgstr "Faturada Göster"
+
+#~ msgid "Address Text"
+#~ msgstr "Adres Metni"
+
+#~ msgid "VAT Amount"
+#~ msgstr "KDV Tutarı"
+
+#~ msgid "Base Amount Ext Vat"
+#~ msgstr "Baz Tutar KDV Hariç"
+
+#~ msgid "Amount Ext Vat"
+#~ msgstr "Tutar KDV Hariç"
+
+#~ msgid "Invoice VAT"
+#~ msgstr "Fatura KDV'si"
+
+#~ msgid "Invoice VATs"
+#~ msgstr "Fatura KDV'leri"
+
+#~ msgid "International Sales Address"
+#~ msgstr "Uluslararası Satış Adresi"
+
+#~ msgid "Shipping Agent Code"
+#~ msgstr "Nakliye Acentesi Kodu"
+
+#~ msgid "Add Row"
+#~ msgstr "Satır Ekle"
+
+#~ msgid "Invoice List"
+#~ msgstr "Fatura Listesi"
+
+#~ msgid "Add Invoice"
+#~ msgstr "Fatura Ekle"
+
+#~ msgid "You are about to delete the Invoice."
+#~ msgstr "Faturayı silmek üzeresiniz."
+
+#~ msgid "Invoice Form"
+#~ msgstr "Fatura Formu"
+
+#~ msgid "Invoice '{}' successfully deleted."
+#~ msgstr "Fatura '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Invoice '{}' cannot be deleted because it is referenced by other objects."
+#~ msgstr ""
+#~ "Fatura '{}' diğer nesneler tarafından referans alındığı için silinemiyor."
+
+#~ msgid "Create"
+#~ msgstr "Oluştur"
+
+#~ msgid "Logged In"
+#~ msgstr "Giriş Yapıldı"
+
+#~ msgid "Logged Out"
+#~ msgstr "Çıkış Yapıldı"
+
+#~ msgid "Login Failed"
+#~ msgstr "Giriş Başarısız"
+
+#~ msgid "System Log"
+#~ msgstr "Sistem Kaydı"
+
+#~ msgid "System Logs"
+#~ msgstr "Sistem Kayıtları"
+
+#~ msgid "Content Type"
+#~ msgstr "İçerik Tipi"
+
+#~ msgid "Related Object ID"
+#~ msgstr "İlgili Nesne ID'si"
+
+#~ msgid "Log"
+#~ msgstr "Kayıt"
+
+#~ msgid "Logs"
+#~ msgstr "Kayıtlar"
+
+#~ msgid "Updated Fields:\n"
+#~ msgstr "Güncellenmiş Alanlar:\n"
+
+#~ msgid "No fields have been changed.\n"
+#~ msgstr "Hiçbir alan değiştirilmedi.\n"
+
+#~ msgid "User is required."
+#~ msgstr "Kullanıcı gereklidir."
+
+#~ msgid "User must have an Account."
+#~ msgstr "Kullanıcının bir hesabı olmak zorundadır."
+
+#~ msgid "User must have a selected AccountCompany."
+#~ msgstr "Kullanıcının bir seçilmiş şirket hesabı olmak zorundadır."
+
+#~ msgid "Object"
+#~ msgstr "Nesne"
+
+#~ msgid "Object ID"
+#~ msgstr "Nesne ID'si"
+
+#~ msgid "Timestamp"
+#~ msgstr "Zaman Damgası"
+
+#~ msgid "Updated Fields"
+#~ msgstr "Güncellenmiş Alanlar"
+
+#~ msgid "Before"
+#~ msgstr "Önce"
+
+#~ msgid "After"
+#~ msgstr "Sonra"
+
+#~ msgid "Username"
+#~ msgstr "Kullanıcı Adı"
+
+#~ msgid "Last Login"
+#~ msgstr "Son Giriş"
+
+#~ msgid "Last Activity"
+#~ msgstr "Son Aktivite"
+
+#~ msgid "Expiration Date"
+#~ msgstr "Geçerlilik Sonu"
+
+#~ msgid "Session cannot be terminated: "
+#~ msgstr "Oturum sonlandırılamıyor: "
+
+#~ msgid "Pending"
+#~ msgstr "Beklemede"
+
+#~ msgid "Confirmed"
+#~ msgstr "Onaylandı"
+
+#~ msgid "Cancelled"
+#~ msgstr "İptal Edildi"
+
+#~ msgid "Individual"
+#~ msgstr "Bireysel"
+
+#~ msgid "Corporate"
+#~ msgstr "Kurumsal"
+
+#~ msgid "Confirmed At"
+#~ msgstr "Onaylanma Tarihi"
+
+#~ msgid "Subscription Plan"
+#~ msgstr "Abonelik Planı"
+
+#~ msgid "Tax Office is required for corporate invoices"
+#~ msgstr "Vergi Dairesi kurumsal faturalar için zorunludur."
+
+#~ msgid "Tax Number is required for corporate invoices"
+#~ msgstr "Vergi Numarası kurumsal faturalar için zorunludur."
+
+#~ msgid "Identity Number is required for individual invoices"
+#~ msgstr "Kimlik Numarası bireysel faturalar için zorunludur."
+
+#~ msgid "Initialized"
+#~ msgstr "Başlatıldı"
+
+#~ msgid "Waiting 3DS"
+#~ msgstr "3D Ödeme Bekleniyor"
+
+#~ msgid "Success"
+#~ msgstr "Başarılı"
+
+#~ msgid "Failed"
+#~ msgstr "Başarısız"
+
+#~ msgid "Periodic"
+#~ msgstr "Periyodik"
+
+#~ msgid "First Time"
+#~ msgstr "İlk Sefer"
+
+#~ msgid "Save Card"
+#~ msgstr "Kart Kaydet"
+
+#~ msgid "Payment Service ID"
+#~ msgstr "Ödeme Servisi ID"
+
+#~ msgid "Payment Received At"
+#~ msgstr "Ödeme Alınma Tarihi"
+
+#~ msgid "Message"
+#~ msgstr "Mesaj"
+
+#~ msgid "Payment Successful"
+#~ msgstr "Ödeme Başarılı"
+
+#~ msgid "Thank you for your subscription. You can now start using Sirketim."
+#~ msgstr ""
+#~ "Aboneliğiniz için teşekkür ederiz. Artık Şirketim'i kullanmaya "
+#~ "başlayabilirsiniz."
+
+#~ msgid "Order Details"
+#~ msgstr "Sipariş Detayları"
+
+#~ msgid "Amount Paid"
+#~ msgstr "Ödenen Tutar"
+
+#~ msgid "Payment Date"
+#~ msgstr "Ödeme Tarihi"
+
+#~ msgid "Go to Dashboard"
+#~ msgstr "Dashboard'a Git"
+
+#~ msgid "View Invoice"
+#~ msgstr "Faturayı Görüntüle"
+
+#~ msgid "Card saved successfully"
+#~ msgstr "Kart başarıyla eklendi"
+
+#~ msgid "Save card failed, please try again"
+#~ msgstr "Kart ekleme başarısız, lütfen tekrar deneyin"
+
+#~ msgid "Payment failed, please try again"
+#~ msgstr "Ödeme başarısız oldu, lütfen tekrar deneyin."
+
+#~ msgid "The number of barcodes cannot exceed {}."
+#~ msgstr "Barkod sayısı maksimum {} olmalıdır."
+
+#~ msgid "Accounting Code"
+#~ msgstr "Muhasebe Kodu"
+
+#~ msgid "Brand"
+#~ msgstr "Marka"
+
+#~ msgid "Category"
+#~ msgstr "Kategori"
+
+#~ msgid "Barcodes"
+#~ msgstr "Barkodlar"
+
+#~ msgid "Product image of {}"
+#~ msgstr "{}'ye ait Ürün Resmi"
+
+#~ msgid "Barcode"
+#~ msgstr "Barkod"
+
+#~ msgid ""
+#~ "Validation failed: User parameter is required for the barcode count check."
+#~ msgstr ""
+#~ "Doğrulama başarısız oldu: Barkod sayım kontrolü için kullanıcı "
+#~ "parametresi gereklidir."
+
+#~ msgid "Brand List"
+#~ msgstr "Marka Listesi"
+
+#~ msgid "Add Brand"
+#~ msgstr "Marka Ekle"
+
+#~ msgid "You are about to delete the Brand."
+#~ msgstr "Markayı silmek üzeresiniz."
+
+#~ msgid "Category List"
+#~ msgstr "Kategori Listesi"
+
+#~ msgid "Add Category"
+#~ msgstr "Kategori Ekle"
+
+#~ msgid "You are about to delete the Category."
+#~ msgstr "Kategoriyi silmek üzeresiniz."
+
+#~ msgid "Product List"
+#~ msgstr "Ürün Listesi"
+
+#~ msgid "Add Product"
+#~ msgstr "Ürün Ekle"
+
+#~ msgid "You are about to delete the Product."
+#~ msgstr "Ürünü silmek üzeresiniz."
+
+#~ msgid "Product updated successfully."
+#~ msgstr "Ürün başarıyla güncellendi."
+
+#~ msgid "Product created successfully."
+#~ msgstr "Ürün başarıyla oluşturuldu."
+
+#~ msgid "Product Form"
+#~ msgstr "Ürün Formu"
+
+#~ msgid "Product '{}' successfully deleted."
+#~ msgstr "Ürün '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Product '{}' cannot be deleted because it is referenced by other objects."
+#~ msgstr ""
+#~ "Ürün '{}' diğer nesneler tarafından referans alındığı için silinemiyor."
+
+#~ msgid "Brand updated successfully."
+#~ msgstr "Marka başarıyla güncellendi."
+
+#~ msgid "Brand created successfully."
+#~ msgstr "Marka başarıyla oluşturuldu."
+
+#~ msgid "Brand Form"
+#~ msgstr "Marka Formu"
+
+#~ msgid "Brand '{}' successfully deleted."
+#~ msgstr "Marka '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Brand '{}' cannot be deleted because it is referenced by other objects."
+#~ msgstr ""
+#~ "Marka '{}' diğer nesneler tarafından referanslandığı için silinemez."
+
+#~ msgid "Category updated successfully."
+#~ msgstr "Kategori başarıyla güncellendi."
+
+#~ msgid "Category created successfully."
+#~ msgstr "Kategori başarıyla oluşturuldu."
+
+#~ msgid "Category Form"
+#~ msgstr "Kategori Formu"
+
+#~ msgid "Category '{}' successfully deleted."
+#~ msgstr "Kategori '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Category '{}' cannot be deleted because it is referenced by other objects."
+#~ msgstr ""
+#~ "Kategori '{}' diğer nesneler tarafından referans alındığı için "
+#~ "silinemiyor."
+
+#~ msgid "Card holder name is required"
+#~ msgstr "Kart sahibinin adı gereklidir."
+
+#~ msgid "Card number is required"
+#~ msgstr "Kart numarası gereklidir."
+
+#~ msgid "Card number must contain only digits"
+#~ msgstr "Kart numarası yalnızca rakam içermeli."
+
+#, fuzzy
+#~| msgid "Card expiration date is required"
+#~ msgid "Card expiration month is required"
+#~ msgstr "Kart son kullanma tarihi gereklidir."
+
+#, fuzzy
+#~| msgid "Card expiration date is required"
+#~ msgid "Card expiration year is required"
+#~ msgstr "Kart son kullanma tarihi gereklidir."
+
+#~ msgid "CVV is required"
+#~ msgstr "CVV gereklidir."
+
+#~ msgid "CVV must be a 3 or 4-digit number"
+#~ msgstr "CVV 3 veya 4 haneli bir numara olmalıdır."
+
+#~ msgid "First name and last name are required"
+#~ msgstr "İsim ve soyisim gereklidir."
+
+#~ msgid "Email is required"
+#~ msgstr "E-posta gereklidir."
+
+#~ msgid "Invalid email format"
+#~ msgstr "Geçersiz e-posta formatı"
+
+#~ msgid "Phone number is required"
+#~ msgstr "Telefon numarası gereklidir."
+
+#~ msgid "Address is required"
+#~ msgstr "Adres gereklidir."
+
+#~ msgid "Week"
+#~ msgstr "Hafta"
+
+#~ msgid "Month"
+#~ msgstr "Ay"
+
+#~ msgid "Year"
+#~ msgstr "Yıl"
+
+#~ msgid "Hour"
+#~ msgstr "Saat"
+
+#~ msgid "Trial"
+#~ msgstr "Deneme"
+
+#~ msgid "Active"
+#~ msgstr "Aktif"
+
+#~ msgid "Expired"
+#~ msgstr "Süresi Doldu"
+
+#~ msgid "Grace Period"
+#~ msgstr "Ödeme Süresi"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "Language"
+#~ msgstr "Dil"
+
+#~ msgid "Description Text"
+#~ msgstr "Açıklama Metni"
+
+#~ msgid "Highlight"
+#~ msgstr "Vurgulama"
+
+#~ msgid "Description Texts"
+#~ msgstr "Açıklama Metinleri"
+
+#~ msgid "Subscription"
+#~ msgstr "Abonelik"
+
+#~ msgid "List Price"
+#~ msgstr "Liste Fiyatı"
+
+#~ msgid "Period"
+#~ msgstr "Periyot"
+
+#~ msgid "Period Unit"
+#~ msgstr "Periyot Birimi"
+
+#~ msgid "Is Trial Available"
+#~ msgstr "Deneme Sürümü Mevcut"
+
+#~ msgid "Trial Period"
+#~ msgstr "Deneme Süresi"
+
+#~ msgid "Trial Period Unit"
+#~ msgstr "Deneme Süresi Birimi"
+
+#~ msgid "Is Grace Period Available"
+#~ msgstr "Deneme Sürümü Mevcut mu"
+
+#~ msgid "Grace Period Unit"
+#~ msgstr "Deneme Süresi Birimi"
+
+#~ msgid "Default Free Plan"
+#~ msgstr "Varsayılan Ücretsiz Plan"
+
+#~ msgid "Price and list price must be set."
+#~ msgstr "Fiyat ve liste fiyatı belirlenmelidir."
+
+#~ msgid "Price must be greater than or equal to 0."
+#~ msgstr "Fiyat 0'dan büyük veya eşit olmalıdır."
+
+#~ msgid "List price must be greater than or equal to price."
+#~ msgstr "Liste fiyatı, fiyattan büyük veya eşit olmalıdır."
+
+#~ msgid "Only 1 free plan is allowed."
+#~ msgstr "Sadece 1 ücretsiz plan olabilir."
+
+#~ msgid "Default free plan price must be 0."
+#~ msgstr "Varsayılan ücretsiz plan fiyatı 0 olmalıdır."
+
+#~ msgid "Invalid period unit."
+#~ msgstr "Deneme Süresi Birimi"
+
+#~ msgid "Start At"
+#~ msgstr "Başlangıç Tarihi"
+
+#~ msgid "End At"
+#~ msgstr "Bitiş Tarihi"
+
+#, fuzzy
+#~| msgid "Grace Period"
+#~ msgid "End At With Grace Period"
+#~ msgstr "Ödeme Süresi"
+
+#~ msgid "Transaction"
+#~ msgstr "Tahsilat"
+
+#~ msgid "Payment Service Card ID"
+#~ msgstr "Ödeme Servisi Kart ID'si "
+
+#, fuzzy
+#~| msgid "Invalid period unit."
+#~ msgid "Invalid grace period unit."
+#~ msgstr "Deneme Süresi Birimi"
+
+#~ msgid "Start date must be less than or equal to end date."
+#~ msgstr "Başlangıç tarihi, bitiş tarihinden küçük veya eşit olmalıdır."
+
+#, fuzzy
+#~| msgid "You already have an active subscription."
+#~ msgid "Please add a card to renew the subscription."
+#~ msgstr "Zaten aktif bir aboneliğiniz var."
+
+#~ msgid "Sirketim Subscription Payment Reminder"
+#~ msgstr "Sirketim Abonelik Ödeme Hatırlatıcısı"
+
+#~ msgid "An error occurred while sending the grace period email."
+#~ msgstr "Ödeme süresi hatırlatma e-postası gönderilirken bir hata oluştu."
+
+#~ msgid "Limit Type"
+#~ msgstr "Limit Tipi"
+
+#~ msgid "Limit"
+#~ msgstr "Limit"
+
+#~ msgid "Resource"
+#~ msgstr "Kaynak"
+
+#~ msgid "Account Subscription Plan"
+#~ msgstr "Hesap Abonelik Planı"
+
+#~ msgid "Subscription Resource Limit"
+#~ msgstr "Abonelik Kaynak Limiti"
+
+#~ msgid "Usage"
+#~ msgstr "Kullanım"
+
+#~ msgid "Subscription Cancelled"
+#~ msgstr "Abonelik İptal Edildi"
+
+#~ msgid "Your subscription has been cancelled but remains active until"
+#~ msgstr ""
+#~ "Aboneliğiniz iptal edildi ancak şu tarihe kadar aktif olarak "
+#~ "kullanabilirsiniz"
+
+#~ msgid "Active Subscription"
+#~ msgstr "Aktif Abonelik"
+
+#~ msgid "Unlimited"
+#~ msgstr "Sınırsız"
+
+#~ msgid "Manage Payment Methods"
+#~ msgstr "Ödeme Yöntemlerini Yönet"
+
+#~ msgid "Add Payment Method"
+#~ msgstr "Ödeme Yöntemi Ekle"
+
+#~ msgid "Cancel Subscription"
+#~ msgstr "Aboneliği İptal Et"
+
+#~ msgid "Current Payment Method"
+#~ msgstr "Mevcut Ödeme Yöntemi"
+
+#~ msgid "Delete Card"
+#~ msgstr "Kartı Sil"
+
+#~ msgid "Credit Card Information"
+#~ msgstr "Kredi Kartı Bilgileri"
+
+#~ msgid "Card number"
+#~ msgstr "Kart numarası"
+
+#~ msgid "Card expiration"
+#~ msgstr "Kart son kullanma tarihi"
+
+#~ msgid "The last 3 digits on back of card"
+#~ msgstr "Kartın arka yüzündeki son 3 rakam"
+
+#~ msgid "We will charge 1 cent to verify your card."
+#~ msgstr "Kartınızı doğrulamak için 1 kuruşluk bir ödeme yapılacaktır."
+
+#~ msgid "Add Card"
+#~ msgstr "Kart Ekle"
+
+#~ msgid "You are currently using the free plan."
+#~ msgstr "Şu anda ücretsiz planı kullanıyorsunuz."
+
+#~ msgid ""
+#~ "Explore our subscription plans to unlock premium features and enhance "
+#~ "your experience."
+#~ msgstr ""
+#~ "Premium özelliklerin kilidini açmak ve deneyiminizi geliştirmek için "
+#~ "abonelik planlarımızı keşfedin."
+
+#~ msgid "View Subscription Plans"
+#~ msgstr "Abonelik Planlarını Görüntüle"
+
+#~ msgid "Past Subscriptions"
+#~ msgstr "Geçmiş Abonelikler"
+
+#~ msgid "Plan"
+#~ msgstr "Plan"
+
+#~ msgid "Renew Subscription"
+#~ msgstr "Aboneliğinizi Yenileyin"
+
+#~ msgid "Are you sure you want to delete this card?"
+#~ msgstr "Kartınızı silmek istediğinizden emin misiniz?"
+
+#~ msgid "Confirm"
+#~ msgstr "Onayla"
+
+#~ msgid "Processing..."
+#~ msgstr "İşlem Yapılıyor..."
+
+#~ msgid "Your card has been deleted."
+#~ msgstr "Kartınız başarıyla silindi."
+
+#~ msgid "An error occurred. Please try again."
+#~ msgstr "Bir hata oluştu. Lütfen tekrar deneyin."
+
+#~ msgid "Card added successfully"
+#~ msgstr "Kart başarıyla eklendi"
+
+#~ msgid ""
+#~ "Are you sure you want to cancel your subscription? You can use your "
+#~ "cancelled subscription until its expiration date."
+#~ msgstr ""
+#~ "Aboneliğinizi iptal etmek istediğinizden emin misiniz? İptal edilen "
+#~ "aboneliğinizi bitiş tarihine kadar kullanabilirsiniz."
+
+#~ msgid "Your subscription has been cancelled."
+#~ msgstr "Aboneliğiniz iptal edildi."
+
+#~ msgid "Payment"
+#~ msgstr "Ödeme"
+
+#~ msgid "Invoice Information"
+#~ msgstr "Fatura Bilgileri"
+
+#~ msgid "List price"
+#~ msgstr "Liste fiyatı"
+
+#~ msgid "Discount"
+#~ msgstr "İndirim"
+
+#~ msgid "Save invoice for future purchases"
+#~ msgstr "Fatura bilgilerini gelecekteki alışverişler için kaydet"
+
+#~ msgid "Pay Now"
+#~ msgstr "Şimdi Öde"
+
+#~ msgid "Invalid content"
+#~ msgstr "Geçersiz içerik"
+
+#~ msgid "Subscription Grace Period Notice"
+#~ msgstr "Abonelik Ödeme Süresi Bildirimi"
+
+#~ msgid "Dear"
+#~ msgstr "Sayın"
+
+#~ msgid ""
+#~ "We're writing to inform you about an important update regarding your "
+#~ "Hamurlabs Sirketim subscription."
+#~ msgstr ""
+#~ "Hamurlabs Sirketim aboneliğinizle ilgili önemli bir güncelleme hakkında "
+#~ "sizi bilgilendirmek için yazıyoruz."
+
+#~ msgid "Your current subscription plan:"
+#~ msgstr "Mevcut abonelik planınız:"
+
+#~ msgid ""
+#~ "We recently attempted to renew your subscription, but unfortunately, the "
+#~ "payment was unsuccessful. As a result, your account has entered a grace "
+#~ "period."
+#~ msgstr ""
+#~ "Aboneliğinizi yenilemeye çalıştık, ancak maalesef ödeme başarısız oldu. "
+#~ "Sonuç olarak, hesabınız belirli bir süre sonra deaktif olacak."
+
+#~ msgid ""
+#~ "To ensure uninterrupted access to our services, please update your "
+#~ "payment information as soon as possible:"
+#~ msgstr ""
+#~ "Hizmetlerimize kesintisiz erişim sağlamak için lütfen ödeme bilgilerinizi "
+#~ "mümkün olan en kısa sürede güncelleyin:"
+
+#~ msgid "Update Payment Information"
+#~ msgstr "Ödeme Bilgilerinizi Güncelleyin"
+
+#~ msgid ""
+#~ "Your subscription has expired, and we don't have a valid payment method "
+#~ "on file to process the renewal automatically."
+#~ msgstr ""
+#~ "Aboneliğinizin süresi doldu ve otomatik yenileme işlemi için geçerli bir "
+#~ "ödeme yöntemi mevcut değil."
+
+#~ msgid ""
+#~ "To continue using our services, please renew your subscription manually:"
+#~ msgstr ""
+#~ "Aboneliğinizi manuel olarak yenilemek için lütfen aşağıdaki bağlantıya "
+#~ "tıklayın:"
+
+#~ msgid ""
+#~ "If you have any questions or need assistance, please don't hesitate to "
+#~ "contact our support team."
+#~ msgstr ""
+#~ "Eğer herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa, lütfen "
+#~ "destek ekibimizle iletişime geçmekten çekinmeyin."
+
+#~ msgid "Choose the right plan for your business"
+#~ msgstr "İşletmeniz için doğru planı seçin"
+
+#~ msgid ""
+#~ "Select from our range of subscription options to find the perfect fit for "
+#~ "your needs."
+#~ msgstr "İhtiyaçlarınıza uygun abonelik seçeneklerimizden birini seçin."
+
+#~ msgid "Recommended"
+#~ msgstr "Tavsiye Edilen"
+
+# python-format                     "
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "                        %(trial_period_text)s %(trial_period_unit)s free "
+#~ "trial available\n"
+#~ "                        "
+#~ msgstr ""
+#~ "\n"
+#~ "                        %(trial_period_text)s %(trial_period_unit)s "
+#~ "ücretsiz deneyin\n"
+#~ "                        "
+
+#~ msgid "Get started"
+#~ msgstr "Kullanmaya Başlayın"
+
+#~ msgid "Company not found"
+#~ msgstr "Şirket bulunamadı"
+
+#~ msgid "Error occurred."
+#~ msgstr "Hata oluştu."
+
+#~ msgid "Company Summary"
+#~ msgstr "Şirket Özeti"
+
+#~ msgid "Welcome "
+#~ msgstr "Hoş Geldiniz "
+
+#~ msgid "Last Login At"
+#~ msgstr "Son Giriş Tarihi"
+
+#, fuzzy
+#~| msgid "Selling Service Cost"
+#~ msgid "Monthly Selling Invoice Amount"
+#~ msgstr "Satış Servis Maliyeti"
+
+#, fuzzy
+#~| msgid "Selling Service Cost"
+#~ msgid "Annual Selling Invoice Amount"
+#~ msgstr "Satış Servis Maliyeti"
+
+#~ msgid "Filters"
+#~ msgstr "Filtreler"
+
+#~ msgid "File Name"
+#~ msgstr "Dosya Adı"
+
+#~ msgid "Add Company Account"
+#~ msgstr "Şirket Hesabı Ekle"
+
+#~ msgid "Leave Reason List"
+#~ msgstr "İzin Sebepleri Listesi"
+
+#~ msgid "Add Leave Reason"
+#~ msgstr "İzin Sebebi Ekle"
+
+#~ msgid "Employee Leave for the employee '{}' successfully deleted."
+#~ msgstr "'{}' isimli çalışana ait Çalışan İzni başarıyla silindi."
+
+#~ msgid ""
+#~ "Employee Leave for the employee '{}' cannot be deleted because it is "
+#~ "referenced by other objects."
+#~ msgstr ""
+#~ "'{}' isimli çalışana ait Çalışan İzni, diğer nesneler tarafından referans "
+#~ "alındığı için silinemiyor."
+
+#~ msgid "Exemption Reason List"
+#~ msgstr "Muafiyet Sebepleri Listesi"
+
+#~ msgid "Add Exemption Reason"
+#~ msgstr "Muafiyet Sebebi Ekle"
+
+#~ msgid "Invoice Items List"
+#~ msgstr "Fatura Kalemi Listesi"
+
+#~ msgid "Add Invoice Item"
+#~ msgstr "Fatura Kalemi Ekle"
+
+#~ msgid "Invoice Product"
+#~ msgstr "Fatura Ürünü"
+
+#~ msgid "Invoice Products List"
+#~ msgstr "Fatura Ürünü Listesi"
+
+#~ msgid "Add Invoice Product"
+#~ msgstr "Fatura Ürünü Ekle"
+
+#~ msgid "Invoice VAT List"
+#~ msgstr "Fatura KDV'si Listesi"
+
+#~ msgid "Add Invoice VAT"
+#~ msgstr "Fatura KDV'si Ekle"
+
+#~ msgid "Log Action"
+#~ msgstr "Log İşlemi"
+
+#~ msgid "If you determine that this activity is malicious, please contact us"
+#~ msgstr ""
+#~ "Bu etkinliğin kötü amaçlı olduğunu belirlerseniz lütfen iletişime geçin"
+
+#~ msgid "Registration Successful!"
+#~ msgstr "Kayıt Başarılı!"
+
+#~ msgid "Session Key"
+#~ msgstr "Oturum Anahtarı"
+
+#~ msgid "Administrator"
+#~ msgstr "Yönetici"
+
+#~ msgid "Grace Period:"
+#~ msgstr "Ödeme Süresi:"
+
+#~ msgid "Thank you for choosing Hamurlabs Sirketim."
+#~ msgstr "Hamurlabs Sirketim'i tercih ettiğiniz için teşekkür ederiz."
+
+#~ msgid "AccountCompany"
+#~ msgstr "Şirket Hesabı"
+
+#~ msgid "Sign in"
+#~ msgstr "Giriş yap"
+
+#~ msgid "Sign up"
+#~ msgstr "Kayıt ol"
+
+#~ msgid "No active subscription found."
+#~ msgstr "Aktif abonelik bulunamadı."
+
+#~ msgid " The last 3 digits on back of card"
+#~ msgstr "Kartın arka yüzündeki son 3 rakam"
+
+#~ msgid ""
+#~ "Company Account '{}' cannot be deleted because it is the currently "
+#~ "selected account."
+#~ msgstr ""
+#~ "Şirket Hesabı '{}' şu anda seçili olan hesap olduğu için silinemiyor."
+
+#~ msgid "Invoice Item '{}' successfully deleted."
+#~ msgstr "Fatura Kalemi '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Invoice Item '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "Fatura Kalemi '{}' diğer nesneler tarafından referans alındığı için "
+#~ "silinemiyor."
+
+#~ msgid "Browser"
+#~ msgstr "Tarayıcı"
+
+#~ msgid "Account Company"
+#~ msgstr "Şirket Hesabı"
+
+#~ msgid "Full Name"
+#~ msgstr "Tam Ad"
+
+#~ msgid "Full name (as displayed on card)"
+#~ msgstr "İsim (kartta göründüğü gibi)"
+
+#~ msgid ""
+#~ "** Warning: Existing barcodes for this product cannot be displayed in "
+#~ "this field, but they can be viewed on the admin list page. **"
+#~ msgstr ""
+#~ "** Uyarı: Bu ürüne ait mevcut barkodlar bu alanda görüntülenememektedir, "
+#~ "ancak yönetici liste sayfasından görülebilir. **"
+
+#~ msgid "An error occurred while processing your payment."
+#~ msgstr "Ödeme işleminiz sırasında bir hata oluştu."
+
+#~ msgid "Leave Reasons"
+#~ msgstr "İzin Sebepleri"
+
+#~ msgid "Leave Reason updated successfully."
+#~ msgstr "İzin Sebebi başarıyla güncellendi."
+
+#~ msgid "Leave Reason created successfully."
+#~ msgstr "İzin Sebebi başarıyla oluşturuldu."
+
+#~ msgid "Leave Reason Form"
+#~ msgstr "İzin Sebebi Formu"
+
+#~ msgid "Leave Reason '{}' successfully deleted."
+#~ msgstr "İzin Sebebi '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Leave Reason '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "İzin Sebebi '{}' diğer nesneler tarafından referanslandığı için silinemez."
+
+#~ msgid "Exemption Reason updated successfully."
+#~ msgstr "Muafiyet Sebebi başarıyla güncellendi."
+
+#~ msgid "Exemption Reason created successfully."
+#~ msgstr "Muafiyet Sebebi başarıyla oluşturuldu."
+
+#~ msgid "Exemption Reason Form"
+#~ msgstr "Muafiyet Sebebi Formu"
+
+#~ msgid "Exemption Reason '{}' successfully deleted."
+#~ msgstr "Muafiyet Sebebi '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Exemption Reason '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "Muafiyet Sebebi '{}' diğer nesneler tarafından referanslandığı için "
+#~ "silinemez."
+
+#~ msgid "You can start using Sirketim"
+#~ msgstr "Şirketim'i kullanmaya başlayabilirsiniz"
+
+#~ msgid "Go to Home Page"
+#~ msgstr "Ana Sayfaya Git"
+
+#~ msgid "Employees"
+#~ msgstr "Çalışanlar"
+
+#~ msgid "Components"
+#~ msgstr "Bileşenler"
+
+#~ msgid "Addresses"
+#~ msgstr "Adresler"
+
+#~ msgid "Gallery"
+#~ msgstr "Galeri"
+
+#~ msgid "Files"
+#~ msgstr "Dosyalar"
+
+#~ msgid "Pricing"
+#~ msgstr "Fiyatlandırma"
+
+#~ msgid "Plan Period"
+#~ msgstr "Plan Dönemi"
+
+#~ msgid "Features"
+#~ msgstr "Özellikler"
+
+#~ msgid "Invoice Products"
+#~ msgstr "Fatura Ürünleri"
+
+#~ msgid "Invoice Items"
+#~ msgstr "Fatura Kalemleri"
+
+#~ msgid "Amount Ext VAT"
+#~ msgstr "Tutar Hariç KDV"
+
+#~ msgid "Invoice Product updated successfully."
+#~ msgstr "Fatura Ürünü başarıyla güncellendi."
+
+#~ msgid "Invoice Product created successfully."
+#~ msgstr "Fatura Ürünü başarıyla oluşturuldu."
+
+#~ msgid "Invoice Product Form"
+#~ msgstr "Fatura Ürünü Formu"
+
+#~ msgid "Invoice Product '{}' successfully deleted."
+#~ msgstr "Fatura Ürünü '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Invoice Product '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "Fatura Ürünü '{}' diğer nesneler tarafından referans alındığı için "
+#~ "silinemiyor."
+
+#~ msgid "Invoice Item updated successfully."
+#~ msgstr "Fatura Kalemi başarıyla güncellendi."
+
+#~ msgid "Invoice Item created successfully."
+#~ msgstr "Fatura Kalemi başarıyla oluşturuldu."
+
+#~ msgid "Invoice Item Form"
+#~ msgstr "Fatura Kalemi Formu"
+
+#~ msgid "Invoice VAT updated successfully."
+#~ msgstr "Fatura KDV'si başarıyla güncellendi."
+
+#~ msgid "Invoice VAT created successfully."
+#~ msgstr "Fatura KDV'si başarıyla oluşturuldu."
+
+#~ msgid "Invoice VAT '{}' successfully deleted."
+#~ msgstr "Fatura KDV'si '{}' başarıyla silindi."
+
+#~ msgid ""
+#~ "Invoice VAT '{}' cannot be deleted because it is referenced by other "
+#~ "objects."
+#~ msgstr ""
+#~ "Fatura KDV'si '{}' diğer nesneler tarafından referans alındığı için "
+#~ "silinemiyor."
+
+#~ msgid "Company must be selected."
+#~ msgstr "Şirket seçilmelidir."
