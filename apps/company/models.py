@@ -90,6 +90,7 @@ class ExpenseType(TenantCoreModel):
         return {
             "id": self.id,
             "name": self.name,
+            "tenant_company": self.tenant_company.legal_name,
         }
 
 class Expense(TenantCoreModel):
@@ -145,4 +146,5 @@ class Expense(TenantCoreModel):
             "paid_at": self.paid_at.strftime("%Y-%m-%d %H:%M:%S")
             if self.paid_at
             else "",
+            "tenant_company": self.tenant_company.legal_name,
         }

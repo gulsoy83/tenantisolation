@@ -41,7 +41,7 @@ def expense_type_list(request):
 def expense_list(request):
     user = request.user
 
-    expenses = Expense.objects.filter(tenant_user=user).filter(is_active=True, is_deleted=False)
+    expenses = Expense.objects.filter(tenant_user=user, is_active=True, is_deleted=False)
     datas = []
     for x in expenses:
         datas.append((x._json()))

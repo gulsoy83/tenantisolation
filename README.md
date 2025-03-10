@@ -3,6 +3,10 @@ Tenant isolation in Django.
 
 Tenant isolation allows secure data separation in a multi-tenant environment, ensuring that each client's data remains private and inaccessible to others.  
 
+Each user has an account and a selected company account object. The objects whose models are derived from the TenantCoreModel will be isolated,
+so users from Company A will not be able to see objects that belong to Company B.
+
+
 To make messages, use:  
 `django-admin makemessages -l tr -i venv`
 
